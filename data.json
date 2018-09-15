@@ -1,0 +1,642 @@
+var data = [
+  [
+      {
+        "name":"Aegina",
+        "description": {
+            "la": "Aegina",
+            "gr": "Αἴγινα",
+            "en": "Aegina",
+            "jp": "アイギーナ",
+            "expl": "island in the Saronic Gulf."
+        },
+        "lat":37.740820,
+        "long":23.497971,
+        "category": "island"
+      },
+      {
+        "name":"Aeoliae insulae",
+        "description": {
+            "la": "Aeoliae insulae",
+            "gr": "Αἰόλου νῆσοι",
+            "en": "Aeolic islands",
+            "jp": "アイオロス諸島",
+            "expl": ""
+        },
+        "lat":38.624164,
+        "long":14.805757,
+        "category": "island"
+      },
+      {
+        "name":"Aeolis",
+        "description": {
+            "la": "Aeolis",
+            "gr": "Αἴολις",
+            "en": "Aeolis",
+            "jp": "アイオリス",
+            "expl": ""
+        },
+        "lat":39.273352,
+        "long":27.345953,
+        "category": "region"
+      },
+      {
+        "name":"Aetna",
+        "description": {
+            "la": "Aetna",
+            "gr": "Αἴτνη",
+            "en": "Aetna",
+            "jp": "アイトネー",
+            "expl": ""
+        },
+        "lat":37.750091,
+        "long":14.998863,
+        "category": "mountain"
+      },
+      {
+        "name":"Aetolia",
+        "description": {
+            "la": "Aetolia",
+            "gr": "Αἰτωλία",
+            "en": "Aetolia",
+            "jp": "アイトーリアー",
+            "expl": ""
+        },
+        "lat":38.766334,
+        "long":21.828618,
+        "category": "region"
+      },
+      {
+        "name":"Alexandria",
+        "description": {
+            "la": "Alexandria",
+            "gr": "Ἀλεξάνδρεια",
+            "en": "Alexandria",
+            "jp": "アレクサンドレイア",
+            "expl": "city of Egypt."
+        },
+        "lat": 31.20575,
+        "long": 29.92452,
+        "category": "city"
+      },
+      {
+        "name":"Anaphlystus",
+        "description": {
+            "la": "Anaphlystus",
+            "gr": "Ἀνάφλυστος",
+            "en": "Anaphlystus",
+            "jp": "アナプリュストス",
+            "expl": "coastral deme of Attica."
+        },
+        "lat": 37.728335,
+        "long": 23.939929,
+        "category": "city"
+      },
+      {
+        "name":"Aperantia",
+        "description": {
+            "la": "Aperantia",
+            "gr": "Ἀπεραντία",
+            "en": "Aperantia",
+            "jp": "アペランティアー",
+            "expl": ""
+        },
+        "lat": 38.862307,
+        "long": 21.436597,
+        "category": "region"
+      },
+      {
+        "name":"Ascra",
+        "description": {
+            "la": "Ascra",
+            "gr": "Ἄσκρα",
+            "en": "Ascra",
+            "jp": "アスクラ",
+            "expl": "town in Boeotia."
+        },
+        "lat": 38.312935,
+        "long": 23.109996,
+        "category": "city"
+      },
+      {
+        "name":"Athenae",
+        "description": {
+            "la": "Athenae",
+            "gr": "Ἀθῆναι",
+            "en": "Athens",
+            "jp": "アテーナイ",
+            "expl": "city in Attica."
+        },
+        "lat":37.98381,
+        "long":23.72753,
+        "category": "city"
+      },
+      {
+        "name":"Attica",
+        "description": {
+            "la": "Attica",
+            "gr": "Ἀττική",
+            "en": "Attica",
+            "jp": "アッティカ",
+            "expl": "region that encompasses the city of Athens."
+        },
+        "lat": 38.154144,
+        "long": 23.687828,
+        "category": "region"
+      },
+      {
+        "name":"Aulis",
+        "description": {
+            "la": "Aulis",
+            "gr": "Αὐλίς",
+            "en": "Aulis",
+            "jp": "アウリス",
+            "expl": "city of Boeotia."
+        },
+        "lat":38.436112,
+        "long":23.588215,
+        "category": "city"
+      }
+  ],
+  [
+      {
+        "name":"Boeotia",
+        "description": {
+            "la": "Boeotia",
+            "gr": "Βοιωτία",
+            "en": "Boeotia",
+            "jp": "ボイオーティアー",
+            "expl": "region of central Greece."
+        },
+        "lat": 38.351213,
+        "long": 23.340109,
+        "category": "region"
+      }
+  ],
+  [
+      {
+        "name":"Callidromus",
+        "description": {
+            "la": "Callidromus",
+            "gr": "Καλλίδρομος",
+            "en": "Callidromus",
+            "jp": "カッリドロモス",
+            "expl": ""
+        },
+        "lat":38.753153,
+        "long":22.523134,
+        "category": "mountain"
+      },
+      {
+        "name":"Ceos",
+        "description": {
+            "la": "Ceos",
+            "gr": "Κέως",
+            "en": "Ceos",
+            "jp": "ケオース",
+            "expl": ""
+        },
+        "lat":37.622375,
+        "long":24.343038,
+        "category": "island"
+      },
+      {
+        "name":"Cephallenia",
+        "description": {
+            "la": "Cephallenia",
+            "gr": "Κεφαλληνία",
+            "en": "Cephallenia",
+            "jp": "ケパッレーニアー",
+            "expl": ""
+        },
+        "lat":38.184837,
+        "long":20.563073,
+        "category": "island"
+      },
+      {
+        "name":"Corinthus",
+        "description": {
+            "la": "Corinthus",
+            "gr": "Κόρινθος",
+            "en": "Corinth",
+            "jp": "ヒューメーットス",
+            "expl": ""
+        },
+        "lat":37.903727,
+        "long":22.902614,
+        "category": "city"
+      }
+  ],
+  [
+      {
+        "name":"Delphi",
+        "description": {
+            "la": "Delph",
+            "gr": "Δελφοῖ",
+            "en": "Delphi",
+            "jp": "デルポイ",
+            "expl": ""
+        },
+        "lat":38.485052,
+        "long":22.492053,
+        "category": "city"
+      },
+      {
+        "name":"Doris",
+        "description": {
+            "la": "Doris",
+            "gr": "Δωρίς",
+            "en": "Doris",
+            "jp": "ドーリス",
+            "expl": ""
+        },
+        "lat":38.661626,
+        "long":22.305311,
+        "category": "region"
+      }
+  ],
+  [
+      {
+        "name":"Epidaurus",
+        "description": {
+            "la": "Epidaurus",
+            "gr": "Ἐπίδαυρος",
+            "en": "Epidaurus",
+            "jp": "エピダウロス",
+            "expl": ""
+        },
+        "lat": 37.618585,
+        "long": 23.147918,
+        "category": "city"
+      },
+      {
+        "name":"Epidauria",
+        "description": {
+            "la": "Epidauria",
+            "gr": "Ἐπιδαυρία",
+            "en": "Epidauria",
+            "jp": "エピダウリアー",
+            "expl": ""
+        },
+        "lat": 37.709525,
+        "long": 22.959768,
+        "category": "region"
+      },
+      {
+        "name":"Eretria",
+        "description": {
+            "la": "Eretria",
+            "gr": "Ἐρέτρια",
+            "en": "Eretira",
+            "jp": "エレトリア",
+            "expl": "town in Euboea."
+        },
+        "lat": 38.417446,
+        "long": 23.679505,
+        "category": "city"
+      },
+      {
+        "name":"Euboea",
+        "description": {
+            "la": "Euboea",
+            "gr": "Εὔβοια",
+            "en": "Euboea",
+            "jp": "エウボイア",
+            "expl": "the second-largest Greek island."
+        },
+        "lat":38.596454,
+        "long":23.759674,
+        "category": "island"
+      }
+  ],
+  [
+      {
+        "name":"Helicon",
+        "description": {
+            "la": "Helicon",
+            "gr": "Ἑλίκων",
+            "en": "Helicon",
+            "jp": "ヘリコーン",
+            "expl": "mountain in Boeotia."
+        },
+        "lat":38.283791,
+        "long":22.918038,
+        "category": "mountain"
+      },
+      {
+        "name":"Hymettus",
+        "description": {
+            "la": "Hymettus",
+            "gr": "Ὑμηττός",
+            "en": "Hymettus",
+            "jp": "ヒューメーットス",
+            "expl": "mountain southeast of Athens."
+        },
+        "lat":37.951804,
+        "long":23.818097,
+        "category": "mountain"
+      }
+  ],
+  [
+      {
+        "name":"Magnesia",
+        "description": {
+            "la": "Magnesia",
+            "gr": "Μαγνησία",
+            "en": "Magnesia",
+            "jp": "マグネーシアー（現Manisa）",
+            "expl": ""
+        },
+        "lat":38.590264,
+        "long":27.432316,
+        "category": "city"
+      },
+      {
+        "name":"Megara",
+        "description": {
+            "la": "Megara",
+            "gr": "Μέγαρα",
+            "en": "Megara",
+            "jp": "メガラ",
+            "expl": ""
+        },
+        "lat":37.996104,
+        "long":23.343090,
+        "category": "city"
+      },
+      {
+        "name":"Megaris",
+        "description": {
+            "la": "Megaris",
+            "gr": "Μεγαρίς",
+            "en": "Megaris",
+            "jp": "メガリス",
+            "expl": ""
+        },
+        "lat":38.019102,
+        "long":23.175481,
+        "category": "region"
+      },
+      {
+        "name":"Messana",
+        "description": {
+            "la": "Messana",
+            "gr": "Μεσσήνη",
+            "en": "Messene",
+            "jp": "メッセーネー",
+            "expl": ""
+        },
+        "lat":38.178850,
+        "long":15.547637,
+        "category": "city"
+      },
+      {
+        "name":"Methana",
+        "description": {
+            "la": "Methana",
+            "gr": "Μέθανα",
+            "en": "Methana",
+            "jp": "メタナ",
+            "expl": ""
+        },
+        "lat":37.596901,
+        "long":23.355080,
+        "category": "city"
+      },
+      {
+        "name":"Mycenae",
+        "description": {
+            "la": "Mycenae",
+            "gr": "Μυκῆναι",
+            "en": "Mycenae",
+            "jp": "ミュケーナイ",
+            "expl": ""
+        },
+        "lat":37.720535,
+        "long":22.738942,
+        "category": "city"
+      }
+  ],
+  [
+      {
+        "name":"Nisaea",
+        "description": {
+            "la": "Nisaea",
+            "gr": "Νίσαια",
+            "en": "Nisaea",
+            "jp": "ニーサイア",
+            "expl": "port of Megaris."
+        },
+        "lat":37.978241,
+        "long":23.356026,
+        "category": "city"
+      }
+  ],
+  [
+      {
+        "name":"Oeta",
+        "description": {
+            "la": "Oeta",
+            "gr": "Οἴτη",
+            "en": "Oeta",
+            "jp": "オイテー",
+            "expl": ""
+        },
+        "lat":38.805881,
+        "long":22.317540,
+        "category": "mountain"
+      }
+  ],
+  [
+      {
+        "name":"Parnassus",
+        "description": {
+            "la": "Parnassus",
+            "gr": "Παρνασσός",
+            "en": "Parnassus",
+            "jp": "パルナッソス",
+            "expl": "mountain in central Greece."
+        },
+        "lat":38.535286,
+        "long":22.537565,
+        "category": "mountain"
+      },
+      {
+        "name":"Pharelum",
+        "description": {
+            "la": "Pharelum",
+            "gr": "Φάληρον",
+            "en": "Phalerum",
+            "jp": "パレーロン",
+            "expl": "port of Athens."
+        },
+        "lat":37.924551,
+        "long":23.704348,
+        "category": "city"
+      },
+      {
+        "name":"Phocis",
+        "description": {
+            "la": "Phocis",
+            "gr": "Φωκίς",
+            "en": "Phocis",
+            "jp": "ポーキス",
+            "expl": ""
+        },
+        "lat":38.627048,
+        "long":22.603167,
+        "category": "region"
+      },
+      {
+        "name":"Piraeeus",
+        "description": {
+            "la": "Piraeeus",
+            "gr": "Πειραιεύς",
+            "en": "Piraeus",
+            "jp": "ペイライエウス",
+            "expl": "port city in the region of Attica."
+        },
+        "lat":37.943988,
+        "long":23.625562,
+        "category": "city"
+      }
+  ],
+  [
+      {
+        "name":"Regium",
+        "description": {
+            "la": "Regium",
+            "gr": "Ῥήγιον",
+            "en": "Regium",
+            "jp": "レーギオン",
+            "expl": ""
+        },
+        "lat":38.061661,
+        "long":15.664197,
+        "category": "city"
+      },
+      {
+        "name":"Roma",
+        "description": {
+            "la": "Roma",
+            "gr": "Ῥώμη",
+            "en": "Rome",
+            "jp": "ローマ",
+            "expl": "city of Italy."
+        },
+        "lat":41.89193,
+        "long":12.51133,
+        "category": "city"
+      }
+  ],
+  [
+      {
+        "name":"Salamis",
+        "description": {
+            "la": "Salamis",
+            "gr": "Σαλαμίς",
+            "en": "Salamis",
+            "jp": "サラミース",
+            "expl": "island in the Saronic Gulf."
+        },
+        "lat":37.907696,
+        "long":23.487454,
+        "category": "island"
+      }
+  ],
+  [
+
+      {
+        "name":"Tauromenium",
+        "description": {
+            "la": "Tauromenium",
+            "gr": "Ταυρομένιον",
+            "en": "",
+            "jp": "タウロメニオン",
+            "expl": ""
+        },
+        "lat":37.832678,
+        "long":15.268982,
+        "category": "city"
+      },
+      {
+        "name":"Thebae",
+        "description": {
+            "la": "Thebae",
+            "gr": "Θῆβαι",
+            "en": "Thebes",
+            "jp": "テーバイ",
+            "expl": "city of Boeotia."
+        },
+        "lat":38.309412,
+        "long":23.321855,
+        "category": "city"
+      },
+      {
+        "name":"Thermopylae",
+        "description": {
+            "la": "Thermopylae",
+            "gr": "Θερμοπύλαι",
+            "en": "Thermopylae",
+            "jp": "テルモピュライ",
+            "expl": ""
+        },
+        "lat":38.800400,
+        "long":22.549098,
+        "category": "city"
+      },
+      {
+        "name":"Thorae",
+        "description": {
+            "la": "Thorae",
+            "gr": "Θόραι",
+            "en": "Thorae",
+            "jp": "トライ",
+            "expl": "deme of Attica."
+        },
+        "lat": 37.796953,
+        "long": 23.900047,
+        "category": "city"
+      },
+      {
+        "name":"Troezen",
+        "description": {
+            "la": "Troezen",
+            "gr": "Τροιζήν",
+            "en": "Troezen",
+            "jp": "トロイゼーン",
+            "expl": ""
+        },
+        "lat": 37.483835,
+        "long": 23.363603,
+        "category": "city"
+      },
+      {
+        "name":"Troezenia",
+        "description": {
+            "la": "Troezenia",
+            "gr": "Τροιζηνία",
+            "en": "Troezenia",
+            "jp": "トロイゼーニアー",
+            "expl": ""
+        },
+        "lat": 37.513338,
+        "long": 23.197851,
+        "category": "region"
+      }
+  ],
+  [
+      {
+        "name":"Zacynthus",
+        "description": {
+            "la": "Zacynthus",
+            "gr": "Ζάκυνθος",
+            "en": "Zacynthus",
+            "jp": "ザキュントス",
+            "expl": "island in the Ionian sea."
+        },
+        "lat":37.767982,
+        "long":20.734567,
+        "category": "island"
+      }
+  ]
+]

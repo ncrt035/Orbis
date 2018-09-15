@@ -1,0 +1,28 @@
+/* main.css */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * "EB Garamond" is licensed under the SIL Open Font License 1.1
+ * by https://github.com/georgd/EB-Garamond
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+body{
+  font-family: "EB Garamond", serif;
+}
+
+/* #laLemma{
+  background-color: red;
+}
+#grLemma{
+  background-color: blue;
+} */
+#explField{
+  padding: 2px 10px;
+	border-left: #0f8296 8px solid;
+	font-size: medium;
+}
+#expl{
+ font-style: italic;
+}
+
+#jp{
+  font-family: 'Noto Serif JP', serif;
+}
