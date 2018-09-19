@@ -105,6 +105,32 @@ var data = [
         "category": "region"
       },
       {
+        "name":"Argolis",
+        "description": {
+            "la": "Argolis",
+            "gr": "Ἀργολίς",
+            "en": "Argolis",
+            "jp": "アルゴリス",
+            "expl": ""
+        },
+        "lat": 37.575431,
+        "long": 22.620523,
+        "category": "region"
+      },
+      {
+        "name":"Argos",
+        "description": {
+            "la": "Argos",
+            "gr": "Ἄργος",
+            "en": "Argos",
+            "jp": "アルゴス",
+            "expl": ""
+        },
+        "lat": 37.623166,
+        "long": 22.715866,
+        "category": "city"
+      },
+      {
         "name":"Ascra",
         "description": {
             "la": "Ascra",
@@ -218,7 +244,7 @@ var data = [
             "la": "Corinthus",
             "gr": "Κόρινθος",
             "en": "Corinth",
-            "jp": "ヒューメーットス",
+            "jp": "コリントス",
             "expl": ""
         },
         "lat":37.903727,
@@ -338,6 +364,21 @@ var data = [
   ],
   [
       {
+        "name":"Lechaeum",
+        "description": {
+            "la": "Lechaeum",
+            "gr": "Λεχαῖον",
+            "en": "Lechaeum",
+            "jp": "レカイオン",
+            "expl": ""
+        },
+        "lat":37.934984,
+        "long":22.848880,
+        "category": "city"
+      }
+  ],
+  [
+      {
         "name":"Magnesia",
         "description": {
             "la": "Magnesia",
@@ -418,6 +459,19 @@ var data = [
   ],
   [
       {
+        "name":"Nauplia",
+        "description": {
+            "la": "Nauplia",
+            "gr": "Ναυπλία",
+            "en": "Nauplia",
+            "jp": "ナウプリアー",
+            "expl": ""
+        },
+        "lat":37.566641,
+        "long":22.807957,
+        "category": "city"
+      },
+      {
         "name":"Nisaea",
         "description": {
             "la": "Nisaea",
@@ -432,6 +486,19 @@ var data = [
       }
   ],
   [
+      {
+        "name":"Oenoe",
+        "description": {
+            "la": "Oenoe",
+            "gr": "Οἰνόη",
+            "en": "Oenoe",
+            "jp": "オイノエー",
+            "expl": ""
+        },
+        "lat":38.050193,
+        "long":23.039618,
+        "category": "city"
+      },
       {
         "name":"Oeta",
         "description": {
@@ -541,6 +608,45 @@ var data = [
         "lat":37.907696,
         "long":23.487454,
         "category": "island"
+      },
+      {
+        "name":"Sicyon",
+        "description": {
+            "la": "Sicyon",
+            "gr": "Σικυών",
+            "en": "Sicyon",
+            "jp": "シキュオーン",
+            "expl": ""
+        },
+        "lat":37.989752,
+        "long":22.744408,
+        "category": "city"
+      },
+      {
+        "name":"Sicyonia",
+        "description": {
+            "la": "Sicyonia",
+            "gr": "Σικυωνία",
+            "en": "Sicyonia",
+            "jp": "シキュオーニアー",
+            "expl": ""
+        },
+        "lat":37.975215,
+        "long":22.529972,
+        "category": "region"
+      },
+      {
+        "name":"Stymphalus",
+        "description": {
+            "la": "Stymphalus",
+            "gr": "Στύμφαλος",
+            "en": "Stymphalus",
+            "jp": "ステュンパロス",
+            "expl": ""
+        },
+        "lat":37.866318,
+        "long":22.465793,
+        "category": "city"
       }
   ],
   [
@@ -595,6 +701,19 @@ var data = [
         },
         "lat": 37.796953,
         "long": 23.900047,
+        "category": "city"
+      },
+      {
+        "name":"Tiryns",
+        "description": {
+            "la": "Tiryns",
+            "gr": "Τίρυνς",
+            "en": "Tiryns",
+            "jp": "ティ（ー）リュンス",
+            "expl": ""
+        },
+        "lat": 37.590879,
+        "long": 22.812131,
         "category": "city"
       },
       {
