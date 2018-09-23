@@ -3,7 +3,7 @@ var map;
 
 var marker = [];
 
-var alphabets = ["A","B","C","D","E","H","M","N","O","P","R","S","T","Z"];
+var alphabets = ["A","B","C","D","E","F","G","H","I","L","M","N","O","P","Q","R","S","U","V","T","Z"];
 
 class LocClass {
 
@@ -137,10 +137,43 @@ window.addEventListener("DOMContentLoaded", function(){
   //create html
   for (var i = 0; i < data.length; i++) {
 
+    var baseDiv = document.getElementById(alphabets[i]);
+    var opDiv = document.createElement("div");
+    var clDiv = document.createElement("div");
+    opDiv.num = i;
+    opDiv.id = "open" + String(opDiv.num);
+    opDiv.textContent = alphabets[i];
+    opDiv.style.display = "block";
+    clDiv.num = i;
+    clDiv.id = "close" + String(clDiv.num);
+    clDiv.textContent = alphabets[i];
+    clDiv.style.display = "none";
+
+    opDiv.addEventListener("click", function(){
+      var closeName = "close" + String(this.num);
+      var ulName = "l" + alphabets[this.num];
+      var cp = document.getElementById(closeName);
+      var ulp = document.getElementById(ulName);
+      ulp.style.display = "block";
+      cp.style.display = "block";
+      this.style.display = "none";
+
+    });
+    clDiv.addEventListener("click", function(){
+      var openName = "open" + String(this.num);
+      var ulName = "l" + alphabets[this.num];
+      var op = document.getElementById(openName);
+      var ulp = document.getElementById(ulName);
+      ulp.style.display = "none";
+      op.style.display = "block";
+      this.style.display = "none";
+
+    });
+
     var ulElem = document.createElement("ul");
 
-    ulElem.id = alphabets[i];
-    ulElem.textContent = alphabets[i];
+    ulElem.id = "l" + alphabets[i];
+    ulElem.style.display = "none";
     wordlist.appendChild(ulElem);
 
     for (var j = 0; j < data[i].length; j++) {
@@ -161,6 +194,10 @@ window.addEventListener("DOMContentLoaded", function(){
       ulElem.appendChild(liElem);
 
     }
+    //Add Elements
+    baseDiv.appendChild(opDiv);
+    baseDiv.appendChild(clDiv);
+    baseDiv.appendChild(ulElem);
 
   }
 
