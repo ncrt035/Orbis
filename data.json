@@ -1,6 +1,19 @@
 var data = [
   [
       {
+        "name":"Acragas",
+        "description": {
+            "la": "Acragas",
+            "gr": "Άκράγας",
+            "en": "Acragas",
+            "jp": "アクラガース",
+            "expl": "ancient Greek city in Sicily, now known as Agrigento."
+        },
+        "lat":37.315277,
+        "long":13.606416,
+        "category": "city"
+      },
+      {
         "name":"Aegina",
         "description": {
             "la": "Aegina",
@@ -250,6 +263,32 @@ var data = [
         "lat":37.903727,
         "long":22.902614,
         "category": "city"
+      },
+      {
+        "name":"Croton",
+        "description": {
+            "la": "Croto(n)",
+            "gr": "Κρότων",
+            "en": "Croton",
+            "jp": "クロトーン",
+            "expl": "an ancient city in Calabria, founded as the Achaian colony in c.710 B.C.(now known as Crotone)"
+        },
+        "lat":39.079872,
+        "long":17.120181,
+        "category": "city"
+      },
+      {
+        "name":"Cumae",
+        "description": {
+            "la": "Cumae",
+            "gr": "Κύμη",
+            "en": "Cumae",
+            "jp": "クーマエ，キューメー",
+            "expl": "the first Greek colony on the mainland of Italy, founded in 8th century B.C."
+        },
+        "lat":40.857999,
+        "long":14.051335,
+        "category": "city"
       }
   ],
   [
@@ -281,6 +320,19 @@ var data = [
       }
   ],
   [
+      {
+        "name":"Elea",
+        "description": {
+            "la": "Elea",
+            "gr": "Ἐλέα",
+            "en": "Elea",
+            "jp": "エレアー",
+            "expl": "ancient Italian-Greek colony, now known as Velia."
+        },
+        "lat": 40.177453,
+        "long": 15.154045,
+        "category": "city"
+      },
       {
         "name":"Epidaurus",
         "description": {
@@ -472,6 +524,19 @@ var data = [
         "category": "city"
       },
       {
+        "name":"Neapolis",
+        "description": {
+            "la": "Neapolis",
+            "gr": "Νεάπολις",
+            "en": "Naples",
+            "jp": "ネアーポリス",
+            "expl": ""
+        },
+        "lat":40.849410,
+        "long":14.268299,
+        "category": "city"
+      },
+      {
         "name":"Nisaea",
         "description": {
             "la": "Nisaea",
@@ -565,6 +630,19 @@ var data = [
         "lat":37.943988,
         "long":23.625562,
         "category": "city"
+      },
+      {
+        "name":"Pompeii",
+        "description": {
+            "la": "Pompeii",
+            "gr": "Πομπήϊοι",
+            "en": "Pompeii",
+            "jp": "ポンペイイー",
+            "expl": ""
+        },
+        "lat":40.748709,
+        "long":14.498733,
+        "category": "city"
       }
   ],
   [
@@ -575,7 +653,7 @@ var data = [
             "gr": "Ῥήγιον",
             "en": "Regium",
             "jp": "レーギオン",
-            "expl": ""
+            "expl": "now known as Reggio di Calabria."
         },
         "lat":38.061661,
         "long":15.664197,
