@@ -53,7 +53,7 @@ body{
 }
 
 #wordlist{
-  background-color: blue;
+  /* background-color: blue; */
   width: 620px;
   height: 500px;
   padding: 5px 10px;
