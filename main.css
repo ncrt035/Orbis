@@ -8,16 +8,41 @@ body{
   font-family: "EB Garamond", serif;
 }
 
+#leftCol{
+  float: left;
+  padding: 5px 10px;
+}
+
+#rightCol{
+  padding: 5px 10px;
+}
+
+#mapWrap{
+  padding: 0px;
+  margin: 0px;
+  width:620px;
+  height:400px;
+}
+
 /* #laLemma{
   background-color: red;
 }
 #grLemma{
   background-color: blue;
 } */
+#selectedWord{
+  width:620px;
+  height:100px;
+  /* background-color: red; */
+
+  overflow: auto;
+}
+
 #explField{
   padding: 2px 10px;
 	border-left: #0f8296 8px solid;
 	font-size: medium;
+
 }
 #expl{
  font-style: italic;
@@ -25,4 +50,13 @@ body{
 
 #jp{
   font-family: 'Noto Serif JP', serif;
+}
+
+#wordlist{
+  /* background-color: blue; */
+  width: 620px;
+  height: 500px;
+  padding: 5px 10px;
+
+  overflow: auto;
 }
