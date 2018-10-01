@@ -3,10 +3,10 @@ var data = [
       {
         "name":"Acragas",
         "description": {
-            "la": "Acragas",
+            "la": "Agrigentum",
             "gr": "Άκράγας",
             "en": "Acragas",
-            "jp": "アクラガース",
+            "jp": "アクラガース，アグリゲントゥム",
             "expl": "ancient Greek city in Sicily, now known as Agrigento."
         },
         "lat":37.315277,
@@ -209,6 +209,19 @@ var data = [
         "lat": 38.351213,
         "long": 23.340109,
         "category": "region"
+      },
+      {
+        "name":"Bononia",
+        "description": {
+            "la": "Bononia",
+            "gr": "Βονωνία",
+            "en": "Bononia",
+            "jp": "ボノーニア",
+            "expl": "a city in Northern Italy, now known as Bologna."
+        },
+        "lat": 44.504716,
+        "long": 11.342195,
+        "category": "city"
       }
   ],
   [
@@ -224,6 +237,19 @@ var data = [
         "lat":38.753153,
         "long":22.523134,
         "category": "mountain"
+      },
+      {
+        "name":"Campania",
+        "description": {
+            "la": "Campania",
+            "gr": "Καμπανία",
+            "en": "Campania",
+            "jp": "カンパーニア",
+            "expl": ""
+        },
+        "lat":40.993231,
+        "long":14.376516,
+        "category": "region"
       },
       {
         "name":"Ceos",
@@ -271,7 +297,7 @@ var data = [
             "gr": "Κρότων",
             "en": "Croton",
             "jp": "クロトーン",
-            "expl": "an ancient city in Calabria, founded as the Achaian colony in c.710 B.C.(now known as Crotone)"
+            "expl": "an ancient city in Calabria, founded as the Achaian colony in c.710 B.C. (now known as Crotone)"
         },
         "lat":39.079872,
         "long":17.120181,
@@ -388,6 +414,36 @@ var data = [
   ],
   [
       {
+        "name":"Florentia",
+        "description": {
+            "la": "Florentia",
+            "gr": "",
+            "en": "Florentia",
+            "jp": "フローレンティア",
+            "expl": "a city in Etruria, now known as Firenze."
+        },
+        "lat":43.745393,
+        "long":11.257858,
+        "category": "city"
+      }
+  ],
+  [
+        {
+          "name":"Gela",
+          "description": {
+              "la": "Gela",
+              "gr": "Γέλα",
+              "en": "Gela",
+              "jp": "ゲラー",
+              "expl": "a city of Sicily."
+          },
+          "lat":37.087694,
+          "long":14.247202,
+          "category": "city"
+        }
+  ],
+  [
+      {
         "name":"Helicon",
         "description": {
             "la": "Helicon",
@@ -415,6 +471,21 @@ var data = [
       }
   ],
   [
+        {
+          "name":"Ionia",
+          "description": {
+              "la": "Ionia",
+              "gr": "Ἰωνία",
+              "en": "Ionia",
+              "jp": "イオーニアー",
+              "expl": "a region of the western Anatolia."
+          },
+          "lat":37.923386,
+          "long":27.636391,
+          "category": "region"
+        }
+  ],
+  [
       {
         "name":"Lechaeum",
         "description": {
@@ -427,6 +498,32 @@ var data = [
         "lat":37.934984,
         "long":22.848880,
         "category": "city"
+      },
+      {
+        "name":"Lesbus",
+        "description": {
+            "la": "Lesbus, Lesbos",
+            "gr": "Λέσβος",
+            "en": "Lesbos",
+            "jp": "レスボス",
+            "expl": "an island in the northern Aegean Sea."
+        },
+        "lat":39.128888,
+        "long":26.227268,
+        "category": "island"
+      },
+      {
+        "name":"Lucania",
+        "description": {
+            "la": "Lucania",
+            "gr": "",
+            "en": "Lucania",
+            "jp": "ルーカーニア",
+            "expl": ""
+        },
+        "lat":40.275457,
+        "long":15.603790,
+        "category": "region"
       }
   ],
   [
@@ -496,6 +593,19 @@ var data = [
         "category": "city"
       },
       {
+        "name":"Miletus",
+        "description": {
+            "la": "Miletus",
+            "gr": "Μίλητος",
+            "en": "Miletus",
+            "jp": "ミーレートス",
+            "expl": "a ancient Greek city of western Anatolia."
+        },
+        "lat":37.520530,
+        "long":27.258366,
+        "category": "city"
+      },
+      {
         "name":"Mycenae",
         "description": {
             "la": "Mycenae",
@@ -507,7 +617,20 @@ var data = [
         "lat":37.720535,
         "long":22.738942,
         "category": "city"
-      }
+      },
+      {
+        "name":"Mytilene",
+        "description": {
+            "la": "Mytilene",
+            "gr": "Μυτιλήνη",
+            "en": "Mytilene",
+            "jp": "ミュティレーネー",
+            "expl": ""
+        },
+        "lat":39.123151,
+        "long":26.474337,
+        "category": "city"
+      },
   ],
   [
       {
@@ -616,6 +739,19 @@ var data = [
         },
         "lat":38.627048,
         "long":22.603167,
+        "category": "region"
+      },
+      {
+        "name":"Picenum",
+        "description": {
+            "la": "Picenum",
+            "gr": "Πικηνίς (χώρα)",
+            "en": "Picenum",
+            "jp": "ピーケーヌム",
+            "expl": "a region of ancient Italy."
+        },
+        "lat":43.017298,
+        "long":13.547209,
         "category": "region"
       },
       {
