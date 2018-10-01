@@ -3,7 +3,7 @@ var map;
 
 var marker = [];
 
-var alphabets = ["A","B","C","D","E","F","G","H","I","L","M","N","O","P","Q","R","S","U","V","T","Z"];
+var alphabets = ["A","B","C","D","E","F","G","H","I","L","M","N","O","P","R","S","T","U","V","Z"];
 
 class LocClass {
 
