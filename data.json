@@ -390,8 +390,8 @@ var data = [
             "jp": "キオス",
             "expl": "an island in the Aegean Sea."
         },
-        "lat":38.375533,
-        "long":26.042496,
+        "lat":38.355314,
+        "long":26.123543,
         "category": "island"
       },
       {
@@ -628,8 +628,8 @@ var data = [
             "jp": "エリュトライ",
             "expl": "a city on the coast of Chios."
         },
-        "lat": 38.342611,
-        "long": 26.123327,
+        "lat": 38.321396,
+        "long": 26.416406,
         "category": "city"
       },
       {
