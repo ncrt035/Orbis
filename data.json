@@ -1,6 +1,19 @@
 var data = [
   [
       {
+        "name":"Abdera",
+        "description": {
+            "la": "Abdera",
+            "gr": "Ἄβδηρα",
+            "en": "Abdera",
+            "jp": "アブデーラ",
+            "expl": "a city on the coarst of Thrace, founded as a colony of Clazomenae. It is the birthplace of Democritus."
+        },
+        "lat":40.981164,
+        "long":24.948766,
+        "category": "city"
+      },
+      {
         "name":"Acragas",
         "description": {
             "la": "Agrigentum",
@@ -105,6 +118,32 @@ var data = [
         "category": "city"
       },
       {
+        "name":"Andros",
+        "description": {
+            "la": "Andros, Andrus",
+            "gr": "Ἄνδρος",
+            "en": "Andros",
+            "jp": "アンドロス",
+            "expl": "the northernmost island of the Cyclades archipelago."
+        },
+        "lat": 37.845440,
+        "long": 24.872209,
+        "category": "island"
+      },
+      {
+        "name":"Antissa",
+        "description": {
+            "la": "Antissa",
+            "gr": "Ἄντισσα",
+            "en": "Antissa",
+            "jp": "アンティッサ",
+            "expl": "a coastral city of Lesbos."
+        },
+        "lat": 39.195581,
+        "long": 25.919022,
+        "category": "city"
+      },
+      {
         "name":"Aperantia",
         "description": {
             "la": "Aperantia",
@@ -198,6 +237,19 @@ var data = [
   ],
   [
       {
+        "name":"Bithynia",
+        "description": {
+            "la": "Bithynia",
+            "gr": "Βιθυνία",
+            "en": "Bithynia",
+            "jp": "ビーテューニアー",
+            "expl": "a region in Asia Minor."
+        },
+        "lat": 40.659562,
+        "long": 30.269905,
+        "category": "region"
+      },
+      {
         "name":"Boeotia",
         "description": {
             "la": "Boeotia",
@@ -221,6 +273,19 @@ var data = [
         },
         "lat": 44.504716,
         "long": 11.342195,
+        "category": "city"
+      },
+      {
+        "name":"Byzantium",
+        "description": {
+            "la": "Byzantium",
+            "gr": "Βυζάντιον",
+            "en": "Byzantium",
+            "jp": "ビュザンティオン",
+            "expl": "a Greek colony on the European side of the Bosporus. It became later Constantinople."
+        },
+        "lat":41.004410,
+        "long":28.975030,
         "category": "city"
       }
   ],
@@ -252,6 +317,32 @@ var data = [
         "category": "region"
       },
       {
+        "name":"Cappadocia",
+        "description": {
+            "la": "Cappadocia",
+            "gr": "Καππαδοκία",
+            "en": "Cappadocia",
+            "jp": "カッパドキアー",
+            "expl": "a region in Asia Minor."
+        },
+        "lat":38.231110,
+        "long":36.453118,
+        "category": "region"
+      },
+      {
+        "name":"Caria",
+        "description": {
+            "la": "Caria",
+            "gr": "Καρία",
+            "en": "Caria",
+            "jp": "カリアー",
+            "expl": "a region in Asia Minor."
+        },
+        "lat":37.348283,
+        "long":28.465902,
+        "category": "region"
+      },
+      {
         "name":"Ceos",
         "description": {
             "la": "Ceos",
@@ -278,6 +369,84 @@ var data = [
         "category": "island"
       },
       {
+        "name":"Chalcedon",
+        "description": {
+            "la": "Chalcedon",
+            "gr": "Χίος",
+            "en": "Chalcedon",
+            "jp": "カルケードーン",
+            "expl": "a city on the Arabic side of the Bosporus, now known as Kadıköy."
+        },
+        "lat":40.970649,
+        "long":29.078990,
+        "category": "city"
+      },
+      {
+        "name":"Chios",
+        "description": {
+            "la": "Chios",
+            "gr": "Χίος",
+            "en": "Chios",
+            "jp": "キオス",
+            "expl": "an island in the Aegean Sea."
+        },
+        "lat":38.375533,
+        "long":26.042496,
+        "category": "island"
+      },
+      {
+        "name":"Cilicia",
+        "description": {
+            "la": "Cilicia",
+            "gr": "Κιλικία",
+            "en": "Cilicia",
+            "jp": "キリキアー",
+            "expl": "a region in Asia Minor."
+        },
+        "lat":37.033486,
+        "long":34.765787,
+        "category": "region"
+      },
+      {
+        "name":"Cnidus",
+        "description": {
+            "la": "Cnidus",
+            "gr": "Κνίδος",
+            "en": "Cnidus",
+            "jp": "クニドス",
+            "expl": "a city in Caria."
+        },
+        "lat":36.672012,
+        "long":27.453050,
+        "category": "city"
+      },
+      {
+        "name":"Colchis",
+        "description": {
+            "la": "Colchis",
+            "gr": "Κολχίς",
+            "en": "Colchis",
+            "jp": "コルキス",
+            "expl": "a region on the east coast of the Black Sea."
+        },
+        "lat":41.566021,
+        "long":42.340132,
+        "category": "region"
+      },
+      {
+        "name":"Colophon",
+        "description": {
+            "la": "Colophon",
+            "gr": "Κολοφών",
+            "en": "Colophon",
+            "jp": "コロポーン",
+            "expl": "a city in Ionia, located between Lebedos and Ephesus."
+        },
+        "lat":38.016381,
+        "long":27.240944,
+        "category": "city"
+      },
+      {
         "name":"Corinthus",
         "description": {
             "la": "Corinthus",
@@ -289,6 +458,19 @@ var data = [
         "lat":37.903727,
         "long":22.902614,
         "category": "city"
+      },
+      {
+        "name":"Cos",
+        "description": {
+            "la": "Cos",
+            "gr": "Κῶς",
+            "en": "Cos",
+            "jp": "コース",
+            "expl": "an island in the southeastern Aegean Sea."
+        },
+        "lat":36.866873,
+        "long":27.286434,
+        "category": "island"
       },
       {
         "name":"Croton",
@@ -315,6 +497,19 @@ var data = [
         "lat":40.857999,
         "long":14.051335,
         "category": "city"
+      },
+      {
+        "name":"Cyzicus",
+        "description": {
+            "la": "Cyzicus",
+            "gr": "Κύμη",
+            "en": "Cyzicus",
+            "jp": "キュジコス",
+            "expl": "a city on the peninsula of Arctonnesus."
+        },
+        "lat":40.467925,
+        "long":28.008528,
+        "category": "city"
       }
   ],
   [
@@ -329,6 +524,19 @@ var data = [
         },
         "lat":38.485052,
         "long":22.492053,
+        "category": "city"
+      },
+      {
+        "name":"Dodona",
+        "description": {
+            "la": "Dodona",
+            "gr": "Δωδώνη",
+            "en": "Dodona",
+            "jp": "ドードーネー",
+            "expl": "an oracle in Epirus."
+        },
+        "lat":39.543068,
+        "long":20.758820,
         "category": "city"
       },
       {
@@ -357,6 +565,19 @@ var data = [
         },
         "lat": 40.177453,
         "long": 15.154045,
+        "category": "city"
+      },
+      {
+        "name":"Ephesus",
+        "description": {
+            "la": "Ephesus",
+            "gr": "Ἔφεσος",
+            "en": "Ephesus",
+            "jp": "エペソス",
+            "expl": "a city in Ionia."
+        },
+        "lat":37.957711,
+        "long":27.400546,
         "category": "city"
       },
       {
@@ -396,6 +617,19 @@ var data = [
         },
         "lat": 38.417446,
         "long": 23.679505,
+        "category": "city"
+      },
+      {
+        "name":"Erythrae",
+        "description": {
+            "la": "Erythrae",
+            "gr": "Ἐρυθραί",
+            "en": "Erythrae",
+            "jp": "エリュトライ",
+            "expl": "a city on the coast of Chios."
+        },
+        "lat": 38.342611,
+        "long": 26.123327,
         "category": "city"
       },
       {
@@ -440,6 +674,19 @@ var data = [
           "lat":37.087694,
           "long":14.247202,
           "category": "city"
+        },
+        {
+          "name":"Gortyn",
+          "description": {
+              "la": "Gortyn",
+              "gr": "Γόρτυν",
+              "en": "Gortyn",
+              "jp": "ゴルテューン",
+              "expl": "a city in central Crete."
+          },
+          "lat":35.039706,
+          "long":24.898323,
+          "category": "city"
         }
   ],
   [
@@ -472,6 +719,19 @@ var data = [
   ],
   [
         {
+          "name":"Icaros",
+          "description": {
+              "la": "Icaros",
+              "gr": "Ἴκαρος",
+              "en": "Icaros",
+              "jp": "イーカロス",
+              "expl": "one of the Cyclades islands."
+          },
+          "lat":37.574436,
+          "long":26.140456,
+          "category": "island"
+        },
+        {
           "name":"Ionia",
           "description": {
               "la": "Ionia",
@@ -486,6 +746,19 @@ var data = [
         }
   ],
   [
+      {
+        "name":"Lebedos",
+        "description": {
+            "la": "Lebedos",
+            "gr": "Λέβεδος",
+            "en": "Lebedos",
+            "jp": "レベドス",
+            "expl": "a city in Ionia."
+        },
+        "lat":38.059336,
+        "long":27.055091,
+        "category": "city"
+      },
       {
         "name":"Lechaeum",
         "description": {
@@ -523,6 +796,32 @@ var data = [
         },
         "lat":40.275457,
         "long":15.603790,
+        "category": "region"
+      },
+      {
+        "name":"Lycia",
+        "description": {
+            "la": "Lycia",
+            "gr": "Λυκία",
+            "en": "Lycia",
+            "jp": "リュキアー",
+            "expl": "a region in Asia Minor between Caria and Pamphylia."
+        },
+        "lat":36.515849,
+        "long":29.874546,
+        "category": "region"
+      },
+      {
+        "name":"Lydia",
+        "description": {
+            "la": "Lydia",
+            "gr": "Λυδία",
+            "en": "Lydia",
+            "jp": "リュディアー",
+            "expl": "a region in Asia Minor."
+        },
+        "lat":38.171169,
+        "long":28.759908,
         "category": "region"
       }
   ],
@@ -593,6 +892,19 @@ var data = [
         "category": "city"
       },
       {
+        "name":"Methymna",
+        "description": {
+            "la": "Methymna",
+            "gr": "Μήθυμνα",
+            "en": "Methymna",
+            "jp": "メーテュムナ",
+            "expl": "the second city of Lesbos."
+        },
+        "lat":39.352086,
+        "long":26.184219,
+        "category": "city"
+      },
+      {
         "name":"Miletus",
         "description": {
             "la": "Miletus",
@@ -617,6 +929,32 @@ var data = [
         "lat":37.720535,
         "long":22.738942,
         "category": "city"
+      },
+      {
+        "name":"Myconos",
+        "description": {
+            "la": "Myconos, Myconus",
+            "gr": "Μύκονος",
+            "en": "Myconos",
+            "jp": "ミュコノス",
+            "expl": "one of the Cyclades islands."
+        },
+        "lat":37.427174,
+        "long":25.394057,
+        "category": "island"
+      },
+      {
+        "name":"Mysia",
+        "description": {
+            "la": "Mysia",
+            "gr": "Μυσία",
+            "en": "Mysia",
+            "jp": "ミュシアー",
+            "expl": "a region in the northwest of Asia Minor."
+        },
+        "lat":39.689670,
+        "long":28.893581,
+        "category": "region"
       },
       {
         "name":"Mytilene",
@@ -703,6 +1041,19 @@ var data = [
   ],
   [
       {
+        "name":"Pamphylia",
+        "description": {
+            "la": "Pamphylia",
+            "gr": "Παμφυλία",
+            "en": "Pamphylia",
+            "jp": "パンピュリアー",
+            "expl": "a region in Asia Minor."
+        },
+        "lat":37.038565,
+        "long":31.698077,
+        "category": "region"
+      },
+      {
         "name":"Parnassus",
         "description": {
             "la": "Parnassus",
@@ -714,6 +1065,19 @@ var data = [
         "lat":38.535286,
         "long":22.537565,
         "category": "mountain"
+      },
+      {
+        "name":"Pergamum",
+        "description": {
+            "la": "Pergamum",
+            "gr": "Πέργαμον",
+            "en": "Pergamum",
+            "jp": "ペルガモン",
+            "expl": "a city in Aeolis."
+        },
+        "lat":39.141584,
+        "long":27.189019,
+        "category": "city"
       },
       {
         "name":"Pharelum",
@@ -742,6 +1106,19 @@ var data = [
         "category": "region"
       },
       {
+        "name":"Phrygia",
+        "description": {
+            "la": "Phrygia",
+            "gr": "Φρυγία",
+            "en": "Phrygia",
+            "jp": "プリュギアー",
+            "expl": "a large region in Asia Minor."
+        },
+        "lat":38.684360,
+        "long":30.511125,
+        "category": "region"
+      },
+      {
         "name":"Picenum",
         "description": {
             "la": "Picenum",
@@ -766,6 +1143,19 @@ var data = [
         "lat":37.943988,
         "long":23.625562,
         "category": "city"
+      },
+      {
+        "name":"Pisidia",
+        "description": {
+            "la": "Pisidia",
+            "gr": "Παμφυλία",
+            "en": "Pisidia",
+            "jp": "ピシディアー",
+            "expl": "a region in Asia Minor."
+        },
+        "lat":37.154647,
+        "long":29.886507,
+        "category": "region"
       },
       {
         "name":"Pompeii",
@@ -796,6 +1186,19 @@ var data = [
         "category": "city"
       },
       {
+        "name":"Rhodos",
+        "description": {
+            "la": "Rhodos, Rhodus",
+            "gr": "Ῥόδος",
+            "en": "Rhodos",
+            "jp": "ロドス",
+            "expl": "an island in the southern Aegean Sea."
+        },
+        "lat":36.402652,
+        "long":28.202732,
+        "category": "island"
+      },
+      {
         "name":"Roma",
         "description": {
             "la": "Roma",
@@ -821,6 +1224,19 @@ var data = [
         },
         "lat":37.907696,
         "long":23.487454,
+        "category": "island"
+      },
+      {
+        "name":"Samos",
+        "description": {
+            "la": "Samos",
+            "gr": "Σάμος",
+            "en": "Samos",
+            "jp": "サモス",
+            "expl": "an island in the Aegean Sea."
+        },
+        "lat":37.750869,
+        "long":26.978851,
         "category": "island"
       },
       {
@@ -850,6 +1266,19 @@ var data = [
         "category": "region"
       },
       {
+        "name":"Smyrna",
+        "description": {
+            "la": "Smyrna",
+            "gr": "Σμύρνα",
+            "en": "Smyrna",
+            "jp": "スミュルナ",
+            "expl": "a city on the west coast of Asia Minor, now known as Ismir."
+        },
+        "lat":38.434780,
+        "long":27.148548,
+        "category": "city"
+      },
+      {
         "name":"Stymphalus",
         "description": {
             "la": "Stymphalus",
@@ -864,7 +1293,6 @@ var data = [
       }
   ],
   [
-
       {
         "name":"Tauromenium",
         "description": {
@@ -877,6 +1305,19 @@ var data = [
         "lat":37.832678,
         "long":15.268982,
         "category": "city"
+      },
+      {
+        "name":"Tenos",
+        "description": {
+            "la": "Tenos, Tenus",
+            "gr": "Τῆνος",
+            "en": "Tenos",
+            "jp": "テーノス",
+            "expl": "one of the Cyclades islands."
+        },
+        "lat":37.591316,
+        "long":25.123737,
+        "category": "island"
       },
       {
         "name":"Thebae",
@@ -954,6 +1395,21 @@ var data = [
         },
         "lat": 37.513338,
         "long": 23.197851,
+        "category": "region"
+      }
+  ],
+  [
+      {
+        "name":"Umbria",
+        "description": {
+            "la": "Umbria",
+            "gr": "",
+            "en": "Umbria",
+            "jp": "ウンブリア",
+            "expl": "a region of central Italy."
+        },
+        "lat":43.248589,
+        "long":11.787587,
         "category": "region"
       }
   ],
