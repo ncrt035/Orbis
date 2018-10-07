@@ -46,7 +46,7 @@ var data = [
             "gr": "Αἰόλου νῆσοι",
             "en": "Aeolic islands",
             "jp": "アイオロス諸島",
-            "expl": ""
+            "expl": "archipelago northwest of Sicily. They are a group of seven islands: Lipara (Lipari), Strongyle, Hiera, Didyme, Euonymos, Ericussa, Phoinicussa."
         },
         "lat":38.624164,
         "long":14.805757,
@@ -157,6 +157,45 @@ var data = [
         "category": "region"
       },
       {
+        "name":"Apollonia (Illyria)",
+        "description": {
+            "la": "Apollonia",
+            "gr": "Ἀπολλωνία",
+            "en": "Apollonia",
+            "jp": "アポッローニアー",
+            "expl": "a city in Illyria."
+        },
+        "lat": 40.653201,
+        "long": 19.517417,
+        "category": "city"
+      },
+      {
+        "name":"Apollonia (Pontica)",
+        "description": {
+            "la": "Apollonia Pontica",
+            "gr": "Ἀπολλωνία",
+            "en": "Apollonia Pontica",
+            "jp": "アポッローニアー",
+            "expl": "a city on the coast of the Black Sea."
+        },
+        "lat": 42.421959,
+        "long": 27.519779,
+        "category": "city"
+      },
+      {
+        "name":"Apollonia (Mygdonia)",
+        "description": {
+            "la": "Apollonia Mygdonica",
+            "gr": "Ἀπολλωνία Μυγδονίκη",
+            "en": "Apollonia Mygdonica",
+            "jp": "アポッローニアー",
+            "expl": "a city in Macedonia."
+        },
+        "lat": 40.518574,
+        "long": 23.461668,
+        "category": "city"
+      },
+      {
         "name":"Argolis",
         "description": {
             "la": "Argolis",
@@ -193,6 +232,19 @@ var data = [
         },
         "lat": 38.312935,
         "long": 23.109996,
+        "category": "city"
+      },
+      {
+        "name":"Asopus",
+        "description": {
+            "la": "Asopus",
+            "gr": "Ἀσωπός",
+            "en": "Asopus",
+            "jp": "アソーポス",
+            "expl": "a city in Laconia."
+        },
+        "lat": 36.684365,
+        "long": 22.851853,
         "category": "city"
       },
       {
@@ -276,6 +328,19 @@ var data = [
         "category": "city"
       },
       {
+        "name":"Buthrotum",
+        "description": {
+            "la": "Buthrotum",
+            "gr": "Βουθρωτόν",
+            "en": "Buthrotum",
+            "jp": "ブートロートン",
+            "expl": "a city in illyria, now known as Butrint."
+        },
+        "lat": 39.730869,
+        "long": 20.005287,
+        "category": "city"
+      },
+      {
         "name":"Byzantium",
         "description": {
             "la": "Byzantium",
@@ -302,6 +367,19 @@ var data = [
         "lat":38.753153,
         "long":22.523134,
         "category": "mountain"
+      },
+      {
+        "name":"Camirus",
+        "description": {
+            "la": "Camirus",
+            "gr": "Κάμειρος",
+            "en": "Camirus",
+            "jp": "カメイロス",
+            "expl": "a city on Rhodes."
+        },
+        "lat":36.324143,
+        "long":27.923447,
+        "category": "city"
       },
       {
         "name":"Campania",
@@ -380,6 +458,19 @@ var data = [
         "lat":40.970649,
         "long":29.078990,
         "category": "city"
+      },
+      {
+        "name":"Chalcidice",
+        "description": {
+            "la": "Chalcidice",
+            "gr": "Χαλκιδική",
+            "en": "Chalcidice",
+            "jp": "カルキディケー",
+            "expl": "the triple peninsula in Macedonia."
+        },
+        "lat":40.333567,
+        "long":23.473128,
+        "category": "region"
       },
       {
         "name":"Chios",
@@ -497,6 +588,18 @@ var data = [
         "lat":40.857999,
         "long":14.051335,
         "category": "city"
+      },{
+        "name":"Cythera",
+        "description": {
+            "la": "Cythera",
+            "gr": "Κύμη",
+            "en": "Cythera",
+            "jp": "キュテーラ",
+            "expl": "an island lying opposite the southeastern tip of the Peloponnese."
+        },
+        "lat":36.251745,
+        "long":23.011803,
+        "category": "island"
       },
       {
         "name":"Cyzicus",
@@ -578,6 +681,19 @@ var data = [
         },
         "lat":37.957711,
         "long":27.400546,
+        "category": "city"
+      },
+      {
+        "name":"Epidamnus",
+        "description": {
+            "la": "Epidamnus",
+            "gr": "Ἐπίδαμνος",
+            "en": "Epidamnus",
+            "jp": "エピダムノス",
+            "expl": "a city located on the Adriatic coast of Illyria."
+        },
+        "lat": 41.315328,
+        "long": 19.486891,
         "category": "city"
       },
       {
@@ -719,6 +835,19 @@ var data = [
   ],
   [
         {
+          "name":"Ialysus",
+          "description": {
+              "la": "Ialysus",
+              "gr": "Ἰάλυσος",
+              "en": "Ialysus",
+              "jp": "イアーリューソス",
+              "expl": "a city on Rhodes."
+          },
+          "lat":36.406785,
+          "long":28.120469,
+          "category": "city"
+        },
+        {
           "name":"Icaros",
           "description": {
               "la": "Icaros",
@@ -730,6 +859,19 @@ var data = [
           "lat":37.574436,
           "long":26.140456,
           "category": "island"
+        },
+        {
+          "name":"Illyria",
+          "description": {
+              "la": "Illyria",
+              "gr": "Ἰλλυρία",
+              "en": "Illyria",
+              "jp": "イッリュリアー",
+              "expl": "region in the northwestern part of the Balkan Peninsula."
+          },
+          "lat":41.226817,
+          "long":20.434439,
+          "category": "region"
         },
         {
           "name":"Ionia",
@@ -746,6 +888,19 @@ var data = [
         }
   ],
   [
+      {
+        "name":"Laconia",
+        "description": {
+            "la": "Laconia",
+            "gr": "Λακωνική",
+            "en": "Laconia",
+            "jp": "ラコーニア，ラコーニケー",
+            "expl": "the southeastern region of the Peloponnese."
+        },
+        "lat":37.008234,
+        "long":22.575597,
+        "category": "region"
+      },
       {
         "name":"Lebedos",
         "description": {
@@ -784,6 +939,19 @@ var data = [
         "lat":39.128888,
         "long":26.227268,
         "category": "island"
+      },
+      {
+        "name":"Lindus",
+        "description": {
+            "la": "Lindus",
+            "gr": "Λίνδος",
+            "en": "Lindus",
+            "jp": "リンドス",
+            "expl": "a city on Rhodes."
+        },
+        "lat":36.082919,
+        "long":28.078075,
+        "category": "city"
       },
       {
         "name":"Lucania",
@@ -827,13 +995,26 @@ var data = [
   ],
   [
       {
+        "name":"Macedonia",
+        "description": {
+            "la": "Macedonia",
+            "gr": "Μακεδονία",
+            "en": "Macedonia",
+            "jp": "マケドニアー",
+            "expl": "a region of the Balkan Peninsula."
+        },
+        "lat":41.410963,
+        "long":21.837650,
+        "category": "region"
+      },
+      {
         "name":"Magnesia",
         "description": {
             "la": "Magnesia",
             "gr": "Μαγνησία",
             "en": "Magnesia",
-            "jp": "マグネーシアー（現Manisa）",
-            "expl": ""
+            "jp": "マグネーシアー",
+            "expl": "a city in Ionia, now known as Manisa."
         },
         "lat":38.590264,
         "long":27.432316,
@@ -1163,11 +1344,24 @@ var data = [
             "la": "Pompeii",
             "gr": "Πομπήϊοι",
             "en": "Pompeii",
-            "jp": "ポンペイイー",
+            "jp": "ポンペーイイー",
             "expl": ""
         },
         "lat":40.748709,
         "long":14.498733,
+        "category": "city"
+      },
+      {
+        "name":"Potidaea",
+        "description": {
+            "la": "Potidaea",
+            "gr": "Ποτείδαια",
+            "en": "Potidaea",
+            "jp": "ポテイダイア",
+            "expl": "a city in the Chalcidice peninsula."
+        },
+        "lat":40.186960,
+        "long":23.330121,
         "category": "city"
       }
   ],
@@ -1190,7 +1384,7 @@ var data = [
         "description": {
             "la": "Rhodos, Rhodus",
             "gr": "Ῥόδος",
-            "en": "Rhodos",
+            "en": "Rhodes",
             "jp": "ロドス",
             "expl": "an island in the southern Aegean Sea."
         },
@@ -1240,6 +1434,19 @@ var data = [
         "category": "island"
       },
       {
+        "name":"Scandea",
+        "description": {
+            "la": "Scandea",
+            "gr": "Σκάνδεια",
+            "en": "Scandea",
+            "jp": "スカンデイア",
+            "expl": "a city on Cythera."
+        },
+        "lat":36.228583,
+        "long":23.078982,
+        "category": "city"
+      },
+      {
         "name":"Sicyon",
         "description": {
             "la": "Sicyon",
@@ -1279,6 +1486,32 @@ var data = [
         "category": "city"
       },
       {
+        "name":"Sparta",
+        "description": {
+            "la": "Sparta",
+            "gr": "Σμύρνα",
+            "en": "Sparta",
+            "jp": "スパルタ，スパルテー",
+            "expl": "one of the most important cities of ancient Greece. It is also called Lacedaemon."
+        },
+        "lat":37.069533,
+        "long":22.428364,
+        "category": "city"
+      },
+      {
+        "name":"Stagirus",
+        "description": {
+            "la": "Stagirus",
+            "gr": "Στάγειρος",
+            "en": "Stagirus",
+            "jp": "スタゲイロス",
+            "expl": "a town in Chalcidice. It is the birthplace of Aristotle."
+        },
+        "lat":40.549708,
+        "long":23.748844,
+        "category": "city"
+      }
+      {
         "name":"Stymphalus",
         "description": {
             "la": "Stymphalus",
@@ -1304,6 +1537,19 @@ var data = [
         },
         "lat":37.832678,
         "long":15.268982,
+        "category": "city"
+      },
+      {
+        "name":"Telmessus",
+        "description": {
+            "la": "Telmessus",
+            "gr": "Τελμησσός",
+            "en": "Telmessus",
+            "jp": "テルメーッソス",
+            "expl": "a city in Lycia."
+        },
+        "lat":36.632902,
+        "long":29.130311,
         "category": "city"
       },
       {
@@ -1411,6 +1657,21 @@ var data = [
         "lat":43.248589,
         "long":11.787587,
         "category": "region"
+      }
+  ],
+  [
+      {
+        "name":"Xanthus",
+        "description": {
+            "la": "Xanthus",
+            "gr": "Ξάνθος",
+            "en": "Xanthus",
+            "jp": "クサントス",
+            "expl": "a city in Lycia."
+        },
+        "lat":36.379471,
+        "long":29.259930,
+        "category": "city"
       }
   ],
   [
