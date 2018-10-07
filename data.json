@@ -1510,7 +1510,7 @@ var data = [
         "lat":40.549708,
         "long":23.748844,
         "category": "city"
-      }
+      },
       {
         "name":"Stymphalus",
         "description": {
