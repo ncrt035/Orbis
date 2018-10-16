@@ -14,6 +14,32 @@ var data = [
         "category": "city"
       },
       {
+        "name":"Abydus",
+        "description": {
+            "la": "Abydus",
+            "gr": "Ἄβυδος",
+            "en": "Abydus",
+            "jp": "アビュドス",
+            "expl": "a city in Mysia."
+        },
+        "lat":40.179196,
+        "long":26.433136,
+        "category": "city"
+      },
+      {
+        "name":"Achaia",
+        "description": {
+            "la": "Achaia",
+            "gr": "Ἀχαΐα",
+            "en": "Achaea",
+            "jp": "アカーイアー",
+            "expl": "the northeast region of the Peloponnese."
+        },
+        "lat":37.940438,
+        "long":21.543763,
+        "category": "region"
+      },
+      {
         "name":"Acragas",
         "description": {
             "la": "Agrigentum",
@@ -38,6 +64,19 @@ var data = [
         "lat":37.740820,
         "long":23.497971,
         "category": "island"
+      },
+      {
+        "name":"Aegium",
+        "description": {
+            "la": "Aegium",
+            "gr": "Αἴγιον",
+            "en": "Aegium",
+            "jp": "アイギオン",
+            "expl": "a city in Achaea."
+        },
+        "lat":38.236118,
+        "long":22.077171,
+        "category": "city"
       },
       {
         "name":"Aeoliae insulae",
@@ -105,6 +144,19 @@ var data = [
         "category": "city"
       },
       {
+        "name":"Amasia",
+        "description": {
+            "la": "Amasia",
+            "gr": "Ἀμάσεια",
+            "en": "Amasia",
+            "jp": "アマセイア",
+            "expl": "a city in the Black Sea region. It is the birthplace of Strabo, and now known as Amasya."
+        },
+        "lat": 40.651741,
+        "long": 35.832847,
+        "category": "city"
+      },
+      {
         "name":"Anaphlystus",
         "description": {
             "la": "Anaphlystus",
@@ -141,6 +193,19 @@ var data = [
         },
         "lat": 39.195581,
         "long": 25.919022,
+        "category": "city"
+      },
+      {
+        "name":"Apamea (Syria)",
+        "description": {
+            "la": "Apamea",
+            "gr": "Ἀπάμεια",
+            "en": "Apamea",
+            "jp": "アパメイア",
+            "expl": "a city in Syria, located on the river Orontes."
+        },
+        "lat": 35.416832,
+        "long": 36.390883,
         "category": "city"
       },
       {
@@ -588,7 +653,34 @@ var data = [
         "lat":40.857999,
         "long":14.051335,
         "category": "city"
-      },{
+      },
+      {
+        "name":"Cyllene (mons)",
+        "description": {
+            "la": "Cyllene",
+            "gr": "Κυλλήνη",
+            "en": "Cyllene",
+            "jp": "キュッレーネー",
+            "expl": "mountain in Arcadia, famous for its association with the god Hermes."
+        },
+        "lat":37.934761,
+        "long":22.404174,
+        "category": "mountain"
+      },
+      {
+        "name":"Cyllene (portus)",
+        "description": {
+            "la": "Cyllene",
+            "gr": "Κυλλήνη",
+            "en": "Cyllene",
+            "jp": "キュッレーネー",
+            "expl": "a port in Elis."
+        },
+        "lat":37.917134,
+        "long":21.152184,
+        "category": "city"
+      },
+      {
         "name":"Cythera",
         "description": {
             "la": "Cythera",
@@ -605,7 +697,7 @@ var data = [
         "name":"Cyzicus",
         "description": {
             "la": "Cyzicus",
-            "gr": "Κύμη",
+            "gr": "Κύζικος",
             "en": "Cyzicus",
             "jp": "キュジコス",
             "expl": "a city on the peninsula of Arctonnesus."
@@ -654,6 +746,19 @@ var data = [
         "lat":38.661626,
         "long":22.305311,
         "category": "region"
+      },
+      {
+        "name":"Dyme",
+        "description": {
+            "la": "Dyme",
+            "gr": "Δύμη",
+            "en": "Dyme",
+            "jp": "デューメー",
+            "expl": "a city in Achaea."
+        },
+        "lat":38.164511,
+        "long":21.495101,
+        "category": "city"
       }
   ],
   [
@@ -807,6 +912,19 @@ var data = [
   ],
   [
       {
+        "name":"Helice",
+        "description": {
+            "la": "Helice",
+            "gr": "Ἑλίκη",
+            "en": "Helice",
+            "jp": "ヘリケー",
+            "expl": "a city in Achaea."
+        },
+        "lat":38.206926,
+        "long":22.157598,
+        "category": "city"
+      },
+      {
         "name":"Helicon",
         "description": {
             "la": "Helicon",
@@ -818,6 +936,19 @@ var data = [
         "lat":38.283791,
         "long":22.918038,
         "category": "mountain"
+      },
+      {
+        "name":"Hispania",
+        "description": {
+            "la": "Hispania",
+            "gr": "Ἱσπανία",
+            "en": "Hispania",
+            "jp": "ヒスパーニア",
+            "expl": "The Iberian Peninsula. It is divided into Hispania Citerior (Hispania Tarraconensis) and Hispania Ulterior (Lusitania and Baetica)."
+        },
+        "lat":39.052260,
+        "long":-4.058398,
+        "category": "region"
       },
       {
         "name":"Hymettus",
@@ -869,8 +1000,8 @@ var data = [
               "jp": "イッリュリアー",
               "expl": "region in the northwestern part of the Balkan Peninsula."
           },
-          "lat":41.226817,
-          "long":20.434439,
+          "lat":42.093064,
+          "long":20.521288,
           "category": "region"
         },
         {
@@ -900,6 +1031,19 @@ var data = [
         "lat":37.008234,
         "long":22.575597,
         "category": "region"
+      },
+      {
+        "name":"Lampsacus",
+        "description": {
+            "la": "Lampsacus",
+            "gr": "Λάμψακος",
+            "en": "Lampsacus",
+            "jp": "ランプサコス",
+            "expl": "a city in northern Troas."
+        },
+        "lat":40.332134,
+        "long":26.721083,
+        "category": "city"
       },
       {
         "name":"Lebedos",
@@ -1218,6 +1362,19 @@ var data = [
         "lat":38.805881,
         "long":22.317540,
         "category": "mountain"
+      },
+      {
+        "name":"Olenus",
+        "description": {
+            "la": "Olenus",
+            "gr": "Ὄλενος",
+            "en": "Olenus",
+            "jp": "オレノス",
+            "expl": "a city in Achaea."
+        },
+        "lat":38.149979,
+        "long":21.532954,
+        "category": "city"
       }
   ],
   [
@@ -1235,6 +1392,19 @@ var data = [
         "category": "region"
       },
       {
+        "name":"Parium",
+        "description": {
+            "la": "Parium",
+            "gr": "Πάριον",
+            "en": "Parium",
+            "jp": "パリオン",
+            "expl": "a city near the entrance of the Hellespont, now known as Kemer."
+        },
+        "lat":40.407101,
+        "long":27.071673,
+        "category": "city"
+      },
+      {
         "name":"Parnassus",
         "description": {
             "la": "Parnassus",
@@ -1246,6 +1416,19 @@ var data = [
         "lat":38.535286,
         "long":22.537565,
         "category": "mountain"
+      },
+      {
+        "name":"Patrae",
+        "description": {
+            "la": "Patrae",
+            "gr": "Πάτραι",
+            "en": "Patrae",
+            "jp": "パトライ",
+            "expl": "a city in western Achaea."
+        },
+        "lat":38.229170,
+        "long":21.730136,
+        "category": "city"
       },
       {
         "name":"Pergamum",
@@ -1391,6 +1574,19 @@ var data = [
         "lat":36.402652,
         "long":28.202732,
         "category": "island"
+      },
+      {
+        "name":"Rhypes",
+        "description": {
+            "la": "Rhypes",
+            "gr": "Ῥύπες",
+            "en": "Rhypes",
+            "jp": "リュペス",
+            "expl": "a city in Achaea."
+        },
+        "lat":38.272954,
+        "long":22.035828,
+        "category": "city"
       },
       {
         "name":"Roma",
@@ -1618,6 +1814,19 @@ var data = [
         "category": "city"
       },
       {
+        "name":"Troas",
+        "description": {
+            "la": "Troas",
+            "gr": "Τρῳάς, Τρωϊάς",
+            "en": "Troas, Troad",
+            "jp": "トローイアス",
+            "expl": "the northwest region of Asia Minor."
+        },
+        "lat": 39.891503,
+        "long": 26.845653,
+        "category": "region"
+      },
+      {
         "name":"Troezen",
         "description": {
             "la": "Troezen",
@@ -1657,6 +1866,21 @@ var data = [
         "lat":43.248589,
         "long":11.787587,
         "category": "region"
+      }
+  ],
+  [
+      {
+        "name":"Verona",
+        "description": {
+            "la": "Verona",
+            "gr": "",
+            "en": "Verona",
+            "jp": "ウェーローナ",
+            "expl": "a city on the Athesis(Adige) river of Veneti. It is the birthplace of Catullus."
+        },
+        "lat":45.453352,
+        "long":10.948537,
+        "category": "city"
       }
   ],
   [
