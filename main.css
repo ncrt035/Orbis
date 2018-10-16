@@ -60,3 +60,13 @@ body{
 
   overflow: auto;
 }
+
+#footer{
+  clear: left;
+  text-align: center;
+  width: 1240px;
+  height: 100px;
+  margin: 20px 10px;
+
+  font-size: 10pt;
+}
