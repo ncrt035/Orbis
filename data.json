@@ -486,6 +486,19 @@ var data = [
         "category": "region"
       },
       {
+        "name":"Carthago",
+        "description": {
+            "la": "Carthago",
+            "gr": "",
+            "en": "Carthage",
+            "jp": "カルターゴー",
+            "expl": "a Phoenician colony on the coast of Tunisia."
+        },
+        "lat":36.729380,
+        "long":10.203883,
+        "category": "city"
+      },
+      {
         "name":"Ceos",
         "description": {
             "la": "Ceos",
@@ -678,6 +691,19 @@ var data = [
         },
         "lat":37.917134,
         "long":21.152184,
+        "category": "city"
+      },
+      {
+        "name":"Cyrene",
+        "description": {
+            "la": "Cyrene",
+            "gr": "Κυρήνη",
+            "en": "Cyrene",
+            "jp": "キュレーネー",
+            "expl": "a city in Lybia. It is the birthplace of Eratosthenes."
+        },
+        "lat":32.743229,
+        "long":21.845334,
         "category": "city"
       },
       {
