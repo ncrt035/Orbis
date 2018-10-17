@@ -37,7 +37,7 @@ var data = [
         },
         "lat":37.940438,
         "long":21.543763,
-        "category": "region"
+        "category": "region2"
       },
       {
         "name":"Acragas",
@@ -102,7 +102,7 @@ var data = [
         },
         "lat":39.273352,
         "long":27.345953,
-        "category": "region"
+        "category": "region2"
       },
       {
         "name":"Aetna",
@@ -128,7 +128,7 @@ var data = [
         },
         "lat":38.766334,
         "long":21.828618,
-        "category": "region"
+        "category": "region2"
       },
       {
         "name":"Alexandria",
@@ -219,7 +219,7 @@ var data = [
         },
         "lat": 38.862307,
         "long": 21.436597,
-        "category": "region"
+        "category": "region2"
       },
       {
         "name":"Apollonia (Illyria)",
@@ -271,7 +271,7 @@ var data = [
         },
         "lat": 37.575431,
         "long": 22.620523,
-        "category": "region"
+        "category": "region2"
       },
       {
         "name":"Argos",
@@ -336,7 +336,7 @@ var data = [
         },
         "lat": 38.154144,
         "long": 23.687828,
-        "category": "region"
+        "category": "region2"
       },
       {
         "name":"Aulis",
@@ -364,7 +364,7 @@ var data = [
         },
         "lat": 40.659562,
         "long": 30.269905,
-        "category": "region"
+        "category": "region1"
       },
       {
         "name":"Boeotia",
@@ -377,7 +377,7 @@ var data = [
         },
         "lat": 38.351213,
         "long": 23.340109,
-        "category": "region"
+        "category": "region2"
       },
       {
         "name":"Bononia",
@@ -457,7 +457,7 @@ var data = [
         },
         "lat":40.993231,
         "long":14.376516,
-        "category": "region"
+        "category": "region2"
       },
       {
         "name":"Cappadocia",
@@ -470,7 +470,7 @@ var data = [
         },
         "lat":38.231110,
         "long":36.453118,
-        "category": "region"
+        "category": "region2"
       },
       {
         "name":"Caria",
@@ -483,7 +483,7 @@ var data = [
         },
         "lat":37.348283,
         "long":28.465902,
-        "category": "region"
+        "category": "region2"
       },
       {
         "name":"Carthago",
@@ -548,7 +548,7 @@ var data = [
         },
         "lat":40.333567,
         "long":23.473128,
-        "category": "region"
+        "category": "region2"
       },
       {
         "name":"Chios",
@@ -574,7 +574,7 @@ var data = [
         },
         "lat":37.033486,
         "long":34.765787,
-        "category": "region"
+        "category": "region2"
       },
       {
         "name":"Cnidus",
@@ -600,7 +600,7 @@ var data = [
         },
         "lat":41.566021,
         "long":42.340132,
-        "category": "region"
+        "category": "region2"
       },
       {
         "name":"Colophon",
@@ -771,7 +771,7 @@ var data = [
         },
         "lat":38.661626,
         "long":22.305311,
-        "category": "region"
+        "category": "region2"
       },
       {
         "name":"Dyme",
@@ -851,7 +851,7 @@ var data = [
         },
         "lat": 37.709525,
         "long": 22.959768,
-        "category": "region"
+        "category": "region2"
       },
       {
         "name":"Eretria",
@@ -974,7 +974,7 @@ var data = [
         },
         "lat":39.052260,
         "long":-4.058398,
-        "category": "region"
+        "category": "region1"
       },
       {
         "name":"Hymettus",
@@ -1028,7 +1028,7 @@ var data = [
           },
           "lat":42.093064,
           "long":20.521288,
-          "category": "region"
+          "category": "region1"
         },
         {
           "name":"Ionia",
@@ -1041,7 +1041,7 @@ var data = [
           },
           "lat":37.923386,
           "long":27.636391,
-          "category": "region"
+          "category": "region2"
         }
   ],
   [
@@ -1056,7 +1056,7 @@ var data = [
         },
         "lat":37.008234,
         "long":22.575597,
-        "category": "region"
+        "category": "region2"
       },
       {
         "name":"Lampsacus",
@@ -1134,7 +1134,7 @@ var data = [
         },
         "lat":40.275457,
         "long":15.603790,
-        "category": "region"
+        "category": "region2"
       },
       {
         "name":"Lycia",
@@ -1147,7 +1147,7 @@ var data = [
         },
         "lat":36.515849,
         "long":29.874546,
-        "category": "region"
+        "category": "region2"
       },
       {
         "name":"Lydia",
@@ -1160,7 +1160,7 @@ var data = [
         },
         "lat":38.171169,
         "long":28.759908,
-        "category": "region"
+        "category": "region2"
       }
   ],
   [
@@ -1175,7 +1175,7 @@ var data = [
         },
         "lat":41.410963,
         "long":21.837650,
-        "category": "region"
+        "category": "region1"
       },
       {
         "name":"Magnesia",
@@ -1214,7 +1214,7 @@ var data = [
         },
         "lat":38.019102,
         "long":23.175481,
-        "category": "region"
+        "category": "region2"
       },
       {
         "name":"Messana",
@@ -1305,7 +1305,7 @@ var data = [
         },
         "lat":39.689670,
         "long":28.893581,
-        "category": "region"
+        "category": "region1"
       },
       {
         "name":"Mytilene",
@@ -1415,7 +1415,7 @@ var data = [
         },
         "lat":37.038565,
         "long":31.698077,
-        "category": "region"
+        "category": "region2"
       },
       {
         "name":"Parium",
@@ -1493,7 +1493,7 @@ var data = [
         },
         "lat":38.627048,
         "long":22.603167,
-        "category": "region"
+        "category": "region2"
       },
       {
         "name":"Phrygia",
@@ -1506,7 +1506,7 @@ var data = [
         },
         "lat":38.684360,
         "long":30.511125,
-        "category": "region"
+        "category": "region1"
       },
       {
         "name":"Picenum",
@@ -1519,7 +1519,7 @@ var data = [
         },
         "lat":43.017298,
         "long":13.547209,
-        "category": "region"
+        "category": "region2"
       },
       {
         "name":"Piraeeus",
@@ -1545,7 +1545,7 @@ var data = [
         },
         "lat":37.154647,
         "long":29.886507,
-        "category": "region"
+        "category": "region2"
       },
       {
         "name":"Pompeii",
@@ -1692,7 +1692,7 @@ var data = [
         },
         "lat":37.975215,
         "long":22.529972,
-        "category": "region"
+        "category": "region2"
       },
       {
         "name":"Smyrna",
@@ -1850,7 +1850,7 @@ var data = [
         },
         "lat": 39.891503,
         "long": 26.845653,
-        "category": "region"
+        "category": "region2"
       },
       {
         "name":"Troezen",
@@ -1876,7 +1876,7 @@ var data = [
         },
         "lat": 37.513338,
         "long": 23.197851,
-        "category": "region"
+        "category": "region2"
       }
   ],
   [
@@ -1891,7 +1891,7 @@ var data = [
         },
         "lat":43.248589,
         "long":11.787587,
-        "category": "region"
+        "category": "region2"
       }
   ],
   [

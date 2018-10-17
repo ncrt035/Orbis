@@ -38,7 +38,16 @@ class LocClass {
           fontWeight: "normal"
         }
         break;
-      case "region":
+      case "region1":
+        this.labelOpts = {
+          text: this.name,
+          color: "black",
+          fontFamily: "EB Garamond, serif",
+          fontSize: "24px",
+          fontWeight: "normal"
+        }
+        break;
+      case "region2":
         this.labelOpts = {
           text: this.name,
           color: "black",
