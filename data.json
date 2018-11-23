@@ -261,6 +261,19 @@ var data = [
         "category": "city"
       },
       {
+        "name":"Apulia",
+        "description": {
+            "la": "Apulia",
+            "gr": "Ἀπουλία",
+            "en": "Apulia",
+            "jp": "アープーリア",
+            "expl": "a region of southeast Italy, now known as Puglia."
+        },
+        "lat": 41.205259,
+        "long": 16.027374,
+        "category": "region2"
+      },
+      {
         "name":"Argolis",
         "description": {
             "la": "Argolis",
@@ -297,6 +310,45 @@ var data = [
         },
         "lat": 38.312935,
         "long": 23.109996,
+        "category": "city"
+      },
+      {
+        "name":"Asine (Argolis)",
+        "description": {
+            "la": "Asine",
+            "gr": "Ἀσίνη",
+            "en": "Asine",
+            "jp": "アシネー",
+            "expl": "town in Argolis."
+        },
+        "lat": 37.536812,
+        "long": 22.867417,
+        "category": "city"
+      },
+      {
+        "name":"Asine (Laconia)",
+        "description": {
+            "la": "Asine",
+            "gr": "Ἀσίνη",
+            "en": "Asine",
+            "jp": "アシネー",
+            "expl": "town in Laconia."
+        },
+        "lat": 36.665590,
+        "long": 22.500882,
+        "category": "city"
+      },
+      {
+        "name":"Asine (Mesene)",
+        "description": {
+            "la": "Asine",
+            "gr": "Ἀσίνη",
+            "en": "Asine",
+            "jp": "アシネー",
+            "expl": "town in Mesene."
+        },
+        "lat": 36.788446,
+        "long": 21.941087,
         "category": "city"
       },
       {
@@ -393,6 +445,19 @@ var data = [
         "category": "city"
       },
       {
+        "name":"Brundisium",
+        "description": {
+            "la": "Brundisium",
+            "gr": "",
+            "en": "Brundisium",
+            "jp": "ブルンディシウム",
+            "expl": "a city on the Adriatic coast, now known as Brindisi."
+        },
+        "lat": 40.638025,
+        "long": 17.933033,
+        "category": "city"
+      },
+      {
         "name":"Buthrotum",
         "description": {
             "la": "Buthrotum",
@@ -420,6 +485,19 @@ var data = [
       }
   ],
   [
+      {
+        "name":"Calabria",
+        "description": {
+            "la": "Calabria",
+            "gr": "Καλαβρία",
+            "en": "Calabria",
+            "jp": "カラブリア",
+            "expl": "a region of south Italy."
+        },
+        "lat":40.442498,
+        "long":17.657518,
+        "category": "region2"
+      },
       {
         "name":"Callidromus",
         "description": {
@@ -1191,6 +1269,19 @@ var data = [
         "category": "city"
       },
       {
+        "name":"Mantua",
+        "description": {
+            "la": "Mantua",
+            "gr": "Μάντουα",
+            "en": "Mantua",
+            "jp": "マントゥア",
+            "expl": "a city on the river Mincius, now known as Mantova."
+        },
+        "lat":45.142874,
+        "long":10.796149,
+        "category": "city"
+      },
+      {
         "name":"Megara",
         "description": {
             "la": "Megara",
@@ -1416,6 +1507,19 @@ var data = [
         "lat":37.038565,
         "long":31.698077,
         "category": "region2"
+      },
+      {
+        "name":"Panormus",
+        "description": {
+            "la": "Panormus",
+            "gr": "Πάνορμος",
+            "en": "Panormus",
+            "jp": "パノルムス",
+            "expl": "a city of Sicily, now known as Palermo."
+        },
+        "lat":38.081904,
+        "long":13.364303,
+        "category": "city"
       },
       {
         "name":"Parium",
@@ -1693,6 +1797,19 @@ var data = [
         "lat":37.975215,
         "long":22.529972,
         "category": "region2"
+      },
+      {
+        "name":"Sipylus",
+        "description": {
+            "la": "Sipylus",
+            "gr": "Σίπυλος",
+            "en": "Sipylus",
+            "jp": "シピュロス",
+            "expl": "a mountain in Lydia."
+        },
+        "lat":38.561573,
+        "long":27.459799,
+        "category": "mountain"
       },
       {
         "name":"Smyrna",
