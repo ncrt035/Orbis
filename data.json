@@ -499,6 +499,19 @@ var data = [
         "category": "region2"
       },
       {
+        "name":"Callatis",
+        "description": {
+            "la": "Callatis",
+            "gr": "Καλλατίς, Κάλλατις",
+            "en": "Callatis",
+            "jp": "カッラティス",
+            "expl": "A Greek city on the coast of the Black Sea, now known as Mangalia."
+        },
+        "lat":43.820263,
+        "long":28.573582,
+        "category": "city"
+      },
+      {
         "name":"Callidromus",
         "description": {
             "la": "Callidromus",
@@ -1522,6 +1535,19 @@ var data = [
         "category": "city"
       },
       {
+        "name":"Paphlagonia",
+        "description": {
+            "la": "Paphlagonia",
+            "gr": "Παφλαγονία",
+            "en": "Paphlagonia",
+            "jp": "パープラゴニアー",
+            "expl": "A region of northern Asia Minor."
+        },
+        "lat":41.276714,
+        "long":33.556036,
+        "category": "region2"
+      },
+      {
         "name":"Parium",
         "description": {
             "la": "Parium",
@@ -1650,6 +1676,19 @@ var data = [
         "lat":37.154647,
         "long":29.886507,
         "category": "region2"
+      },
+      {
+        "name":"Pithecusae",
+        "description": {
+            "la": "Pithecusae",
+            "gr": "Πιθηκοῦσ(σ)αι",
+            "en": "Pithecusae",
+            "jp": "ピテークーッサイ",
+            "expl": "An island in the Bay of Naples."
+        },
+        "lat":40.722620,
+        "long":13.904219,
+        "category": "island"
       },
       {
         "name":"Pompeii",
