@@ -53,6 +53,19 @@ var data = [
         "category": "city"
       },
       {
+        "name":"mare Aegaeum",
+        "description": {
+            "la": "mare Aegaeum",
+            "gr": "Αἰγαῖον πέλαγος",
+            "en": "Aegean Sea",
+            "jp": "エーゲ海",
+            "expl": "sea between the mainlands of Greece and Turkey."
+        },
+        "lat":39.322681,
+        "long":24.427679,
+        "category": "sea"
+      },
+      {
         "name":"Aegina",
         "description": {
             "la": "Aegina",
@@ -215,7 +228,7 @@ var data = [
             "gr": "Ἀπεραντία",
             "en": "Aperantia",
             "jp": "アペランティアー",
-            "expl": ""
+            "expl": "a region of Aetolia."
         },
         "lat": 38.862307,
         "long": 21.436597,
@@ -280,7 +293,7 @@ var data = [
             "gr": "Ἀργολίς",
             "en": "Argolis",
             "jp": "アルゴリス",
-            "expl": ""
+            "expl": "a region of Peloponnese."
         },
         "lat": 37.575431,
         "long": 22.620523,
@@ -293,7 +306,7 @@ var data = [
             "gr": "Ἄργος",
             "en": "Argos",
             "jp": "アルゴス",
-            "expl": ""
+            "expl": "a city in Argolis."
         },
         "lat": 37.623166,
         "long": 22.715866,
@@ -596,7 +609,7 @@ var data = [
             "gr": "Κέως",
             "en": "Ceos",
             "jp": "ケオース",
-            "expl": ""
+            "expl": "an island in the Cyclades archipelago."
         },
         "lat":37.622375,
         "long":24.343038,
@@ -609,7 +622,7 @@ var data = [
             "gr": "Κεφαλληνία",
             "en": "Cephallenia",
             "jp": "ケパッレーニアー",
-            "expl": ""
+            "expl": "an island in western Greece."
         },
         "lat":38.184837,
         "long":20.563073,
@@ -982,6 +995,19 @@ var data = [
         "lat":38.596454,
         "long":23.759674,
         "category": "island"
+      },
+      {
+        "name":"Pontus Euxinus",
+        "description": {
+            "la": "Pontus Euxinus",
+            "gr": "Πόντος Εὔξεινος",
+            "en": "Euxine Sea",
+            "jp": "黒海（手厚くもてなす海）",
+            "expl": "the Greek name for the Black Sea, located between earstern Europe and western Asia."
+        },
+        "lat":43.193296,
+        "long":33.633629,
+        "category": "sea"
       }
   ],
   [
@@ -1133,6 +1159,19 @@ var data = [
           "lat":37.923386,
           "long":27.636391,
           "category": "region2"
+        },
+        {
+          "name":"mare Ionium",
+          "description": {
+              "la": "mare Ionium",
+              "gr": "Ἰόνιον πέλαγος",
+              "en": "Ionian Sea",
+              "jp": "イオニア海",
+              "expl": "sea bounded by southern Italy and the west coast of Greece."
+          },
+          "lat":37.683433,
+          "long":18.336482,
+          "category": "sea"
         }
   ],
   [
@@ -1301,7 +1340,7 @@ var data = [
             "gr": "Μέγαρα",
             "en": "Megara",
             "jp": "メガラ",
-            "expl": ""
+            "expl": "a city between Athens and Corinth."
         },
         "lat":37.996104,
         "long":23.343090,
@@ -1327,7 +1366,7 @@ var data = [
             "gr": "Μεσσήνη",
             "en": "Messene",
             "jp": "メッセーネー",
-            "expl": ""
+            "expl": "a city in the northeast corner of Sicily. It was originally called Zancle, and now known as Messina."
         },
         "lat":38.178850,
         "long":15.547637,
