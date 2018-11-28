@@ -32,7 +32,7 @@ class LocClass {
       case "island":
         this.labelOpts = {
           text: this.name,
-          color: "blue",
+          color: "green",
           fontFamily: "EB Garamond, serif",
           fontSize: "12px",
           fontWeight: "normal"
