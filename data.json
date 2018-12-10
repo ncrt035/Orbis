@@ -111,7 +111,7 @@ var data = [
             "gr": "Αἴολις",
             "en": "Aeolis",
             "jp": "アイオリス",
-            "expl": ""
+            "expl": "a region on the northearstern coast of Asia Minor."
         },
         "lat":39.273352,
         "long":27.345953,
@@ -124,7 +124,7 @@ var data = [
             "gr": "Αἴτνη",
             "en": "Aetna",
             "jp": "アイトネー",
-            "expl": ""
+            "expl": "a volcano on the east coast of Sicily."
         },
         "lat":37.750091,
         "long":14.998863,
@@ -137,7 +137,7 @@ var data = [
             "gr": "Αἰτωλία",
             "en": "Aetolia",
             "jp": "アイトーリアー",
-            "expl": ""
+            "expl": "a region in west-central Greece."
         },
         "lat":38.766334,
         "long":21.828618,
@@ -531,7 +531,7 @@ var data = [
             "gr": "Καλλίδρομος",
             "en": "Callidromus",
             "jp": "カッリドロモス",
-            "expl": ""
+            "expl": "a mountain overlooks Thermopylae."
         },
         "lat":38.753153,
         "long":22.523134,
@@ -557,7 +557,7 @@ var data = [
             "gr": "Καμπανία",
             "en": "Campania",
             "jp": "カンパーニア",
-            "expl": ""
+            "expl": "a region in south Italy."
         },
         "lat":40.993231,
         "long":14.376516,
@@ -600,6 +600,19 @@ var data = [
         },
         "lat":36.729380,
         "long":10.203883,
+        "category": "city"
+      },
+      {
+        "name":"Catina",
+        "description": {
+            "la": "Catina",
+            "gr": "Κατάνη",
+            "en": "Catana",
+            "jp": "カタネー",
+            "expl": "the second largest city in Sicily, now known as Catania."
+        },
+        "lat":37.501959,
+        "long":15.055946,
         "category": "city"
       },
       {
@@ -726,7 +739,7 @@ var data = [
             "gr": "Κόρινθος",
             "en": "Corinth",
             "jp": "コリントス",
-            "expl": ""
+            "expl": "a city of the Peloponnese."
         },
         "lat":37.903727,
         "long":22.902614,
@@ -743,6 +756,19 @@ var data = [
         },
         "lat":36.866873,
         "long":27.286434,
+        "category": "island"
+      },
+      {
+        "name":"Creta",
+        "description": {
+            "la": "Creta",
+            "gr": "Κρήτη",
+            "en": "Crete",
+            "jp": "クレーテー",
+            "expl": "the largest island in Greece."
+        },
+        "lat":34.891379,
+        "long":24.803711,
         "category": "island"
       },
       {
@@ -845,7 +871,7 @@ var data = [
             "gr": "Δελφοῖ",
             "en": "Delphi",
             "jp": "デルポイ",
-            "expl": ""
+            "expl": "a city in central Greece."
         },
         "lat":38.485052,
         "long":22.492053,
@@ -871,7 +897,7 @@ var data = [
             "gr": "Δωρίς",
             "en": "Doris",
             "jp": "ドーリス",
-            "expl": ""
+            "expl": "a region of central Greece."
         },
         "lat":38.661626,
         "long":22.305311,
@@ -1027,6 +1053,19 @@ var data = [
   ],
   [
         {
+          "name":"Gadara",
+          "description": {
+              "la": "Gadara",
+              "gr": "Γάδαρα",
+              "en": "Gadara",
+              "jp": "ガダラ",
+              "expl": "a city of Palestine, now known as Umm Qays."
+          },
+          "lat":32.655813,
+          "long":35.670662,
+          "category": "city"
+        },
+        {
           "name":"Gela",
           "description": {
               "la": "Gela",
@@ -1079,6 +1118,19 @@ var data = [
         "lat":38.283791,
         "long":22.918038,
         "category": "mountain"
+      },
+      {
+        "name":"Herculaneum",
+        "description": {
+            "la": "Herculaneum",
+            "gr": "",
+            "en": "Herculaneum",
+            "jp": "ヘルクラーネウム",
+            "expl": "a town located near the west of mount Vesuvius."
+        },
+        "lat":40.799307,
+        "long":14.359560,
+        "category": "city"
       },
       {
         "name":"Hispania",
@@ -1221,7 +1273,7 @@ var data = [
             "gr": "Λεχαῖον",
             "en": "Lechaeum",
             "jp": "レカイオン",
-            "expl": ""
+            "expl": "a port city in Corinth."
         },
         "lat":37.934984,
         "long":22.848880,
@@ -1257,10 +1309,10 @@ var data = [
         "name":"Lucania",
         "description": {
             "la": "Lucania",
-            "gr": "",
+            "gr": "Λευκανία",
             "en": "Lucania",
             "jp": "ルーカーニア",
-            "expl": ""
+            "expl": "a region of South Italy."
         },
         "lat":40.275457,
         "long":15.603790,
@@ -1334,13 +1386,26 @@ var data = [
         "category": "city"
       },
       {
+        "name":"Massalia",
+        "description": {
+            "la": "Massalia",
+            "gr": "Μασσαλία",
+            "en": "Massalia",
+            "jp": "マッサリア",
+            "expl": "a city in Gallia. It is now known as Marseille."
+        },
+        "lat":43.293288,
+        "long":5.372766,
+        "category": "city"
+      },
+      {
         "name":"Megara",
         "description": {
             "la": "Megara",
             "gr": "Μέγαρα",
             "en": "Megara",
             "jp": "メガラ",
-            "expl": "a city between Athens and Corinth."
+            "expl": "a city in Megaris."
         },
         "lat":37.996104,
         "long":23.343090,
@@ -1353,7 +1418,7 @@ var data = [
             "gr": "Μεγαρίς",
             "en": "Megaris",
             "jp": "メガリス",
-            "expl": ""
+            "expl": "a region of west Attica and north Corinth."
         },
         "lat":38.019102,
         "long":23.175481,
@@ -1418,7 +1483,7 @@ var data = [
             "gr": "Μυκῆναι",
             "en": "Mycenae",
             "jp": "ミュケーナイ",
-            "expl": ""
+            "expl": "a city in Argolis."
         },
         "lat":37.720535,
         "long":22.738942,
@@ -1457,7 +1522,7 @@ var data = [
             "gr": "Μυτιλήνη",
             "en": "Mytilene",
             "jp": "ミュティレーネー",
-            "expl": ""
+            "expl": "a city in Lesbos."
         },
         "lat":39.123151,
         "long":26.474337,
@@ -1472,7 +1537,7 @@ var data = [
             "gr": "Ναυπλία",
             "en": "Nauplia",
             "jp": "ナウプリアー",
-            "expl": ""
+            "expl": "a city in Argolis."
         },
         "lat":37.566641,
         "long":22.807957,
@@ -1485,7 +1550,7 @@ var data = [
             "gr": "Νεάπολις",
             "en": "Naples",
             "jp": "ネアーポリス",
-            "expl": ""
+            "expl": "a city in southern Italy, now known as Napoli."
         },
         "lat":40.849410,
         "long":14.268299,
@@ -1526,7 +1591,7 @@ var data = [
             "gr": "Οἴτη",
             "en": "Oeta",
             "jp": "オイテー",
-            "expl": ""
+            "expl": "a mountain in Central Greece."
         },
         "lat":38.805881,
         "long":22.317540,
@@ -1658,7 +1723,7 @@ var data = [
             "gr": "Φωκίς",
             "en": "Phocis",
             "jp": "ポーキス",
-            "expl": ""
+            "expl": "a region of central Greece."
         },
         "lat":38.627048,
         "long":22.603167,
@@ -1736,7 +1801,7 @@ var data = [
             "gr": "Πομπήϊοι",
             "en": "Pompeii",
             "jp": "ポンペーイイー",
-            "expl": ""
+            "expl": "a city in southern Italy."
         },
         "lat":40.748709,
         "long":14.498733,
@@ -1857,7 +1922,7 @@ var data = [
             "gr": "Σικυών",
             "en": "Sicyon",
             "jp": "シキュオーン",
-            "expl": ""
+            "expl": "a city in Sicyonia."
         },
         "lat":37.989752,
         "long":22.744408,
@@ -1870,7 +1935,7 @@ var data = [
             "gr": "Σικυωνία",
             "en": "Sicyonia",
             "jp": "シキュオーニアー",
-            "expl": ""
+            "expl": "a region of the Peloponnese."
         },
         "lat":37.975215,
         "long":22.529972,
@@ -1906,7 +1971,7 @@ var data = [
         "name":"Sparta",
         "description": {
             "la": "Sparta",
-            "gr": "Σμύρνα",
+            "gr": "Σπάρτη",
             "en": "Sparta",
             "jp": "スパルタ，スパルテー",
             "expl": "one of the most important cities of ancient Greece. It is also called Lacedaemon."
@@ -1935,10 +2000,23 @@ var data = [
             "gr": "Στύμφαλος",
             "en": "Stymphalus",
             "jp": "ステュンパロス",
-            "expl": ""
+            "expl": "a town in Arcadia."
         },
         "lat":37.866318,
         "long":22.465793,
+        "category": "city"
+      },
+      {
+        "name":"Syracusae",
+        "description": {
+            "la": "Syracusae",
+            "gr": "Συράκουσαι",
+            "en": "Syracuse",
+            "jp": "シュラクーサイ",
+            "expl": "a city on the island of Sicily."
+        },
+        "lat":37.070058,
+        "long":15.262152,
         "category": "city"
       }
   ],
@@ -1950,7 +2028,7 @@ var data = [
             "gr": "Ταυρομένιον",
             "en": "",
             "jp": "タウロメニオン",
-            "expl": ""
+            "expl": "a city in Sicilym now known as Taormina."
         },
         "lat":37.832678,
         "long":15.268982,
@@ -2002,7 +2080,7 @@ var data = [
             "gr": "Θερμοπύλαι",
             "en": "Thermopylae",
             "jp": "テルモピュライ",
-            "expl": ""
+            "expl": "a mountain pass in northern Greece."
         },
         "lat":38.800400,
         "long":22.549098,
@@ -2028,7 +2106,7 @@ var data = [
             "gr": "Τίρυνς",
             "en": "Tiryns",
             "jp": "ティ（ー）リュンス",
-            "expl": ""
+            "expl": "a city in Argolis."
         },
         "lat": 37.590879,
         "long": 22.812131,
@@ -2054,7 +2132,7 @@ var data = [
             "gr": "Τροιζήν",
             "en": "Troezen",
             "jp": "トロイゼーン",
-            "expl": ""
+            "expl": "a city in Troezenia."
         },
         "lat": 37.483835,
         "long": 23.363603,
@@ -2067,7 +2145,7 @@ var data = [
             "gr": "Τροιζηνία",
             "en": "Troezenia",
             "jp": "トロイゼーニアー",
-            "expl": ""
+            "expl": "a region in the northeastern Peloponnese."
         },
         "lat": 37.513338,
         "long": 23.197851,
