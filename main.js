@@ -56,6 +56,15 @@ class LocClass {
           fontWeight: "normal"
         }
         break;
+      case "island":
+        this.labelOpts = {
+          text: this.name,
+          color: "blue",
+          fontFamily: "EB Garamond, serif",
+          fontSize: "12px",
+          fontWeight: "normal"
+        }
+        break;
       case "mountain":
         this.labelOpts = {
           text: this.name,
