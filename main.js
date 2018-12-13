@@ -56,7 +56,7 @@ class LocClass {
           fontWeight: "normal"
         }
         break;
-      case "island":
+      case "river":
         this.labelOpts = {
           text: this.name,
           color: "blue",
