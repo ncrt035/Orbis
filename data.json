@@ -33,7 +33,7 @@ var data = [
             "gr": "Ἀχαΐα",
             "en": "Achaea",
             "jp": "アカーイアー",
-            "expl": "the northeast region of the Peloponnese."
+            "expl": "the northwestern region of the Peloponnese."
         },
         "lat":37.940438,
         "long":21.543763,
@@ -64,6 +64,19 @@ var data = [
         "lat":39.322681,
         "long":24.427679,
         "category": "sea"
+      },
+      {
+        "name":"Aegaleus",
+        "description": {
+            "la": "Aegaleus",
+            "gr": "Αἰγάλεως",
+            "en": "Aegaleus",
+            "jp": "アイガレオース",
+            "expl": "a mountain in Peloponnese."
+        },
+        "lat":37.147842,
+        "long":21.738408,
+        "category": "mountain"
       },
       {
         "name":"Aegina",
@@ -319,7 +332,7 @@ var data = [
             "gr": "Ἄσκρα",
             "en": "Ascra",
             "jp": "アスクラ",
-            "expl": "town in Boeotia."
+            "expl": "a town in Boeotia."
         },
         "lat": 38.312935,
         "long": 23.109996,
@@ -332,7 +345,7 @@ var data = [
             "gr": "Ἀσίνη",
             "en": "Asine",
             "jp": "アシネー",
-            "expl": "town in Argolis."
+            "expl": "a town in Argolis."
         },
         "lat": 37.536812,
         "long": 22.867417,
@@ -345,7 +358,7 @@ var data = [
             "gr": "Ἀσίνη",
             "en": "Asine",
             "jp": "アシネー",
-            "expl": "town in Laconia."
+            "expl": "a town in Laconia."
         },
         "lat": 36.665590,
         "long": 22.500882,
@@ -358,7 +371,7 @@ var data = [
             "gr": "Ἀσίνη",
             "en": "Asine",
             "jp": "アシネー",
-            "expl": "town in Mesene."
+            "expl": "a town in Mesene."
         },
         "lat": 36.788446,
         "long": 21.941087,
@@ -384,7 +397,7 @@ var data = [
             "gr": "Ἀθῆναι",
             "en": "Athens",
             "jp": "アテーナイ",
-            "expl": "city in Attica."
+            "expl": "a city in Attica."
         },
         "lat":37.98381,
         "long":23.72753,
@@ -397,7 +410,7 @@ var data = [
             "gr": "Ἀττική",
             "en": "Attica",
             "jp": "アッティカ",
-            "expl": "region that encompasses the city of Athens."
+            "expl": "a region that encompasses the city of Athens."
         },
         "lat": 38.154144,
         "long": 23.687828,
@@ -538,6 +551,19 @@ var data = [
         "category": "mountain"
       },
       {
+        "name":"Calydon",
+        "description": {
+            "la": "Calydon",
+            "gr": "Καλυδών",
+            "en": "Calydon",
+            "jp": "カリュドーン",
+            "expl": "a city in Aetolia."
+        },
+        "lat":38.368102,
+        "long":21.503548,
+        "category": "city"
+      },
+      {
         "name":"Camirus",
         "description": {
             "la": "Camirus",
@@ -668,6 +694,32 @@ var data = [
         "category": "region2"
       },
       {
+        "name":"Chalcis (Aetolia)",
+        "description": {
+            "la": "Chalcis",
+            "gr": "Χαλκίς",
+            "en": "Chalcis",
+            "jp": "カルキス",
+            "expl": "a city in Aetolia."
+        },
+        "lat":38.338248,
+        "long":21.572478,
+        "category": "city"
+      },
+      {
+        "name":"Chalcis (Euboea)",
+        "description": {
+            "la": "Chalcis",
+            "gr": "Χαλκίς",
+            "en": "Chalcis",
+            "jp": "カルキス",
+            "expl": "the chief city of Euboea."
+        },
+        "lat":38.457231,
+        "long":23.604314,
+        "category": "city"
+      },
+      {
         "name":"Chios",
         "description": {
             "la": "Chios",
@@ -692,6 +744,19 @@ var data = [
         "lat":37.033486,
         "long":34.765787,
         "category": "region2"
+      },
+      {
+        "name":"Cithaeron",
+        "description": {
+            "la": "Cithaeron",
+            "gr": "Κιθαιρών",
+            "en": "Cithaeron",
+            "jp": "キタイローン",
+            "expl": "a mountain in central Greece."
+        },
+        "lat":38.176952,
+        "long":23.215909,
+        "category": "mountain"
       },
       {
         "name":"Cnidus",
@@ -824,6 +889,19 @@ var data = [
         "category": "city"
       },
       {
+        "name":"Cyparissia",
+        "description": {
+            "la": "Cyparissia",
+            "gr": "Κυπαρίσσιαι",
+            "en": "Cyparissia",
+            "jp": "キュパリッシアー",
+            "expl": "a city of Messenia."
+        },
+        "lat":37.253076,
+        "long":21.669164,
+        "category": "city"
+      },
+      {
         "name":"Cyrene",
         "description": {
             "la": "Cyrene",
@@ -840,7 +918,7 @@ var data = [
         "name":"Cythera",
         "description": {
             "la": "Cythera",
-            "gr": "Κύμη",
+            "gr": "Κύθηρα",
             "en": "Cythera",
             "jp": "キュテーラ",
             "expl": "an island lying opposite the southeastern tip of the Peloponnese."
@@ -932,6 +1010,32 @@ var data = [
         "category": "city"
       },
       {
+        "name":"Elis (urbs)",
+        "description": {
+            "la": "Elis",
+            "gr": "Ἦλις",
+            "en": "Elis",
+            "jp": "エーリス",
+            "expl": "a city in Peloponnese."
+        },
+        "lat": 37.896315,
+        "long": 21.323648,
+        "category": "city"
+      },
+      {
+        "name":"Elis",
+        "description": {
+            "la": "Elis",
+            "gr": "Ἦλις",
+            "en": "Elis",
+            "jp": "エーリス",
+            "expl": "a region of Peloponnese."
+        },
+        "lat": 37.937555,
+        "long": 21.357061,
+        "category": "region2"
+      },
+      {
         "name":"Ephesus",
         "description": {
             "la": "Ephesus",
@@ -997,6 +1101,19 @@ var data = [
         "category": "city"
       },
       {
+        "name":"Erymanthus",
+        "description": {
+            "la": "Erymanthus",
+            "gr": "Ἐρύμανθος",
+            "en": "Erymanthus",
+            "jp": "エリュマントス",
+            "expl": "a mountain between Achaea, Elis and Arcadia."
+        },
+        "lat": 37.963230,
+        "long": 21.830065,
+        "category": "mountain"
+      },
+      {
         "name":"Erythrae",
         "description": {
             "la": "Erythrae",
@@ -1021,6 +1138,19 @@ var data = [
         "lat":38.596454,
         "long":23.759674,
         "category": "island"
+      },
+      {
+        "name":"Eurotas",
+        "description": {
+            "la": "Eurotas",
+            "gr": "Εὐρώτας",
+            "en": "Eurotas",
+            "jp": "エウロータース",
+            "expl": "a river of Sparta."
+        },
+        "lat":36.841522,
+        "long":22.682468,
+        "category": "river"
       },
       {
         "name":"Pontus Euxinus",
@@ -1113,7 +1243,7 @@ var data = [
             "gr": "Ἑλίκων",
             "en": "Helicon",
             "jp": "ヘリコーン",
-            "expl": "mountain in Boeotia."
+            "expl": "a mountain in Boeotia."
         },
         "lat":38.283791,
         "long":22.918038,
@@ -1224,6 +1354,32 @@ var data = [
           "lat":37.683433,
           "long":18.336482,
           "category": "sea"
+        },
+        {
+          "name":"Ithome (Messenia)",
+          "description": {
+              "la": "Ithome",
+              "gr": "Ἰθώμη",
+              "en": "Ithome",
+              "jp": "イトーメー",
+              "expl": "a mountain in Messenia"
+          },
+          "lat":37.188224,
+          "long":21.926725,
+          "category": "mountain"
+        },
+        {
+          "name":"Ithome (Thessalia)",
+          "description": {
+              "la": "Ithome",
+              "gr": "Ἰθώμη",
+              "en": "Ithome",
+              "jp": "イトーメー",
+              "expl": "a city in Thessalia"
+          },
+          "lat":39.415833,
+          "long":21.798889,
+          "category": "city"
         }
   ],
   [
@@ -1254,6 +1410,19 @@ var data = [
         "category": "city"
       },
       {
+        "name":"Latium",
+        "description": {
+            "la": "Latium",
+            "gr": "Λατινίς",
+            "en": "Latium",
+            "jp": "ラティウム",
+            "expl": "region of central Italy which includes the city of Rome."
+        },
+        "lat":41.551225,
+        "long":12.859080,
+        "category": "region2"
+      },
+      {
         "name":"Lebedos",
         "description": {
             "la": "Lebedos",
@@ -1273,7 +1442,7 @@ var data = [
             "gr": "Λεχαῖον",
             "en": "Lechaeum",
             "jp": "レカイオン",
-            "expl": "a port city in Corinth."
+            "expl": "port city in Corinth."
         },
         "lat":37.934984,
         "long":22.848880,
@@ -1360,6 +1529,32 @@ var data = [
         "category": "region1"
       },
       {
+        "name":"Macistus",
+        "description": {
+            "la": "Macistus",
+            "gr": "Μάκιστος",
+            "en": "Macistus",
+            "jp": "マキストス",
+            "expl": "a mountain in Euboea."
+        },
+        "lat":38.671797,
+        "long":23.467573,
+        "category": "mountain"
+      },
+      {
+        "name":"Maeotis",
+        "description": {
+            "la": "Maeotis",
+            "gr": "Μαιῶτις",
+            "en": "Maeotis",
+            "jp": "マイオーティス",
+            "expl": "the sea of Azov, though it was described as a lake by ancient writers."
+        },
+        "lat":45.861657,
+        "long":36.478703,
+        "category": "sea"
+      },
+      {
         "name":"Magnesia",
         "description": {
             "la": "Magnesia",
@@ -1436,6 +1631,19 @@ var data = [
         "lat":38.178850,
         "long":15.547637,
         "category": "city"
+      },
+      {
+        "name":"Messenia",
+        "description": {
+            "la": "Messenia",
+            "gr": "Μεσσηνία",
+            "en": "Messenia",
+            "jp": "メッセーニアー",
+            "expl": "a region of the Peloponnese."
+        },
+        "lat":37.112675,
+        "long":21.846669,
+        "category": "region2"
       },
       {
         "name":"Methana",
@@ -1609,9 +1817,48 @@ var data = [
         "lat":38.149979,
         "long":21.532954,
         "category": "city"
+      },
+      {
+        "name":"Olympus",
+        "description": {
+            "la": "Olympus",
+            "gr": "Ὄλυμπος",
+            "en": "Olympus",
+            "jp": "オリュンポス",
+            "expl": "the heighest mountain in Greece."
+        },
+        "lat":40.086793,
+        "long":22.362505,
+        "category": "mountain"
       }
   ],
   [
+      {
+        "name":"Pamisus (Messenia)",
+        "description": {
+            "la": "Pamisus",
+            "gr": "Πάμισος",
+            "en": "Pamisus",
+            "jp": "パミソス",
+            "expl": "a river of Messenia."
+        },
+        "lat":37.039314,
+        "long":22.016759,
+        "category": "river"
+      },
+      {
+        "name":"Pamisus (Tessalia)",
+        "description": {
+            "la": "Pamisus",
+            "gr": "Πάμισος",
+            "en": "Pamisus",
+            "jp": "パミソス",
+            "expl": "a river of Tessalia."
+        },
+        "lat":39.415482,
+        "long":21.919324,
+        "category": "river"
+      },
       {
         "name":"Pamphylia",
         "description": {
@@ -1671,7 +1918,7 @@ var data = [
             "gr": "Παρνασσός",
             "en": "Parnassus",
             "jp": "パルナッソス",
-            "expl": "mountain in central Greece."
+            "expl": "a mountain in central Greece."
         },
         "lat":38.535286,
         "long":22.537565,
@@ -1689,6 +1936,19 @@ var data = [
         "lat":38.229170,
         "long":21.730136,
         "category": "city"
+      },
+      {
+        "name":"Pelium",
+        "description": {
+            "la": "Pelium",
+            "gr": "Πήλιον",
+            "en": "Pelium",
+            "jp": "ペーリオン",
+            "expl": "a mountain in Thessalia."
+        },
+        "lat":39.436511,
+        "long":23.047932,
+        "category": "mountain"
       },
       {
         "name":"Pergamum",
@@ -1818,6 +2078,19 @@ var data = [
         },
         "lat":40.186960,
         "long":23.330121,
+        "category": "city"
+      },
+      {
+        "name":"Pylus",
+        "description": {
+            "la": "Pylus",
+            "gr": "Πύλος",
+            "en": "Pylus",
+            "jp": "ピュロス",
+            "expl": "a town in Messenia."
+        },
+        "lat":36.955547,
+        "long":21.691282,
         "category": "city"
       }
   ],
@@ -1968,6 +2241,19 @@ var data = [
         "category": "city"
       },
       {
+        "name":"Soracte",
+        "description": {
+            "la": "Soracte",
+            "gr": "",
+            "en": "Soracte",
+            "jp": "ソーラクテ",
+            "expl": "a mountain north of Rome."
+        },
+        "lat":42.251579,
+        "long":12.500691,
+        "category": "mountain"
+      },
+      {
         "name":"Sparta",
         "description": {
             "la": "Sparta",
@@ -1979,6 +2265,19 @@ var data = [
         "lat":37.069533,
         "long":22.428364,
         "category": "city"
+      },
+      {
+        "name":"Sphacteria",
+        "description": {
+            "la": "Sphacteria",
+            "gr": "Σφακτηρία",
+            "en": "Sphacteria",
+            "jp": "スパクテーリアー",
+            "expl": "an island in front of Pylus."
+        },
+        "lat":36.923653,
+        "long":21.667255,
+        "category": "island"
       },
       {
         "name":"Stagirus",
@@ -2022,17 +2321,56 @@ var data = [
   ],
   [
       {
+        "name":"Tamynae",
+        "description": {
+            "la": "Tamynae",
+            "gr": "Ταμύναι",
+            "en": "Tamynae",
+            "jp": "タウロメニオン",
+            "expl": "a town of Euboea."
+        },
+        "lat":38.459864,
+        "long":24.168600,
+        "category": "city"
+      },
+      {
         "name":"Tauromenium",
         "description": {
             "la": "Tauromenium",
             "gr": "Ταυρομένιον",
-            "en": "",
+            "en": "Tauromenium",
             "jp": "タウロメニオン",
             "expl": "a city in Sicilym now known as Taormina."
         },
         "lat":37.832678,
         "long":15.268982,
         "category": "city"
+      },
+      {
+        "name":"Taygetus",
+        "description": {
+            "la": "Taygetus",
+            "gr": "Ταΰγετον (Ταΰγετος)",
+            "en": "Taygetus",
+            "jp": "ターユゲトン，ターユゲトス",
+            "expl": "a mountain between Laconia and Messenia."
+        },
+        "lat":36.953889,
+        "long":22.352222,
+        "category": "mountain"
+      },
+      {
+        "name":"Telethrius",
+        "description": {
+            "la": "Telethrius",
+            "gr": "Τελέθριον, Τελέθριος",
+            "en": "Telethrius",
+            "jp": "テレトリオス",
+            "expl": "a small mountain in Euboea."
+        },
+        "lat":38.865000,
+        "long":23.188000,
+        "category": "mountain"
       },
       {
         "name":"Telmessus",
