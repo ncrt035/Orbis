@@ -1088,6 +1088,19 @@ var data = [
         "category": "region2"
       },
       {
+        "name":"Epirus",
+        "description": {
+            "la": "Epirus",
+            "gr": "Ἤπειρος",
+            "en": "Epirus",
+            "jp": "エーペイロス",
+            "expl": "a region in northwestern Greece."
+        },
+        "lat": 39.802307,
+        "long": 20.591407,
+        "category": "region2"
+      },
+      {
         "name":"Eretria",
         "description": {
             "la": "Eretria",
@@ -1407,6 +1420,19 @@ var data = [
         },
         "lat":40.332134,
         "long":26.721083,
+        "category": "city"
+      },
+      {
+        "name":"Larisa",
+        "description": {
+            "la": "Larisa",
+            "gr": "Λάρισα",
+            "en": "Larisa",
+            "jp": "ラーリーサ",
+            "expl": "the largest city in Thessaly."
+        },
+        "lat":39.615194,
+        "long":22.419890,
         "category": "city"
       },
       {
@@ -2016,6 +2042,19 @@ var data = [
         "category": "region2"
       },
       {
+        "name":"Pindus",
+        "description": {
+            "la": "Pindus",
+            "gr": "Πίνδος",
+            "en": "Pindus",
+            "jp": "ピンドス",
+            "expl": "a mountain located in northern Greece, between Epirus and Thessaly."
+        },
+        "lat":39.905419,
+        "long":20.930326,
+        "category": "mountain"
+      },
+      {
         "name":"Piraeeus",
         "description": {
             "la": "Piraeeus",
@@ -2423,6 +2462,19 @@ var data = [
         "lat":38.800400,
         "long":22.549098,
         "category": "city"
+      },
+      {
+        "name":"Thessalia",
+        "description": {
+            "la": "Thessalia",
+            "gr": "Θετταλία, Θεσσαλία",
+            "en": "Thessaly",
+            "jp": "テッサリアー",
+            "expl": "a region in northeastern Greece."
+        },
+        "lat": 39.557702,
+        "long": 22.377785,
+        "category": "region2"
       },
       {
         "name":"Thorae",
