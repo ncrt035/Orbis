@@ -720,6 +720,19 @@ var data = [
         "category": "city"
       },
       {
+        "name":"Chaonia",
+        "description": {
+            "la": "Chaonia",
+            "gr": "Χαονία",
+            "en": "Chaonia",
+            "jp": "カーオニアー",
+            "expl": "a region in Epirus."
+        },
+        "lat":40.094068,
+        "long":20.081685,
+        "category": "region2"
+      },
+      {
         "name":"Chios",
         "description": {
             "la": "Chios",
@@ -954,6 +967,19 @@ var data = [
         "lat":38.485052,
         "long":22.492053,
         "category": "city"
+      },
+      {
+        "name":"Dicte",
+        "description": {
+            "la": "Dicte, Dicta",
+            "gr": "Δίκτη",
+            "en": "Dicte",
+            "jp": "ディクテー",
+            "expl": "a mountain in Crete. It is considered as the birthplace of Zeus."
+        },
+        "lat":35.095598,
+        "long":26.073823,
+        "category": "mountain"
       },
       {
         "name":"Dodona",
@@ -1328,6 +1354,32 @@ var data = [
           "lat":37.574436,
           "long":26.140456,
           "category": "island"
+        },
+        {
+          "name":"Ida(Crete)",
+          "description": {
+              "la": "Ida",
+              "gr": "Ἴδη",
+              "en": "Ida",
+              "jp": "イーデー",
+              "expl": "a mountain in Crete. In a cave of this mountain, Zeus was nourished by Amalthea."
+          },
+          "lat":35.199670,
+          "long":24.760142,
+          "category": "mountain"
+        },
+        {
+          "name":"Ida(Phrygia)",
+          "description": {
+              "la": "Ida",
+              "gr": "Ἴδη",
+              "en": "Ida",
+              "jp": "イーデー",
+              "expl": "a mountain in Phrygia, famous for the worship of Cybele."
+          },
+          "lat":39.637770,
+          "long":26.875670,
+          "category": "mountain"
         },
         {
           "name":"Illyria",
@@ -1802,6 +1854,19 @@ var data = [
         "lat":37.978241,
         "long":23.356026,
         "category": "city"
+      },
+      {
+        "name":"Numidia",
+        "description": {
+            "la": "Numidia",
+            "gr": "Νομαδία",
+            "en": "Numidia",
+            "jp": "ヌミディア",
+            "expl": "a northern region of Africa."
+        },
+        "lat":35.433633,
+        "long":1.080652,
+        "category": "region1"
       }
   ],
   [
@@ -2330,6 +2395,19 @@ var data = [
         "lat":40.549708,
         "long":23.748844,
         "category": "city"
+      },
+      {
+        "name":"Strymon",
+        "description": {
+            "la": "Strymon",
+            "gr": "Στρυνών",
+            "en": "Strymon",
+            "jp": "ストリューモーン",
+            "expl": "a river in Thrace."
+        },
+        "lat":40.838431,
+        "long":23.567057,
+        "category": "river"
       },
       {
         "name":"Stymphalus",
