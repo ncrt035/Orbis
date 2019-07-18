@@ -20,7 +20,7 @@ var data = [
             "gr": "Ἄβυδος",
             "en": "Abydus",
             "jp": "アビュドス",
-            "expl": "a city in Mysia."
+            "expl": "a city in Troad."
         },
         "lat":40.179196,
         "long":26.433136,
@@ -300,6 +300,19 @@ var data = [
         "category": "region2"
       },
       {
+        "name":"Arcadia",
+        "description": {
+            "la": "Arcadia",
+            "gr": "Ἀρκαδία",
+            "en": "Arcadia",
+            "jp": "アルカディアー",
+            "expl": "a region in the central Peloponnese."
+        },
+        "lat": 37.757071,
+        "long": 22.032533,
+        "category": "region2"
+      },
+      {
         "name":"Argolis",
         "description": {
             "la": "Argolis",
@@ -323,6 +336,19 @@ var data = [
         },
         "lat": 37.623166,
         "long": 22.715866,
+        "category": "city"
+      },
+      {
+        "name":"Arisbe",
+        "description": {
+            "la": "Arisbe, Arisba",
+            "gr": "Ἀρίσβη",
+            "en": "Arisbe, Arisba",
+            "jp": "アリスベー",
+            "expl": "a city in Troad."
+        },
+        "lat": 40.246930,
+        "long": 26.594063,
         "category": "city"
       },
       {
@@ -956,6 +982,32 @@ var data = [
   ],
   [
       {
+        "name":"Dardania",
+        "description": {
+            "la": "Dardania",
+            "gr": "Δαρδανία",
+            "en": "Dardania",
+            "jp": "ダルダニアー",
+            "expl": "a region of the Troad."
+        },
+        "lat": 40.053977,
+        "long": 26.470866,
+        "category": "region2"
+      },
+      {
+        "name":"Dardanus",
+        "description": {
+            "la": "Dardanus",
+            "gr": "Δάρδανος",
+            "en": "Dardanus",
+            "jp": "ダルダノス",
+            "expl": "a city in the Troad."
+        },
+        "lat": 40.084784,
+        "long": 26.384994,
+        "category": "city"
+      },
+      {
         "name":"Delphi",
         "description": {
             "la": "Delph",
@@ -1289,6 +1341,19 @@ var data = [
         "category": "mountain"
       },
       {
+        "name":"Hephaestia",
+        "description": {
+            "la": "Hephaestia",
+            "gr": "Ἡφαιστία",
+            "en": "Hephaestia",
+            "jp": "ヘーパイスティアー",
+            "expl": "a town of Lemnos."
+        },
+        "lat":39.909951,
+        "long":25.299928,
+        "category": "city"
+      },
+      {
         "name":"Herculaneum",
         "description": {
             "la": "Herculaneum",
@@ -1380,6 +1445,19 @@ var data = [
           "lat":39.637770,
           "long":26.875670,
           "category": "mountain"
+        },
+        {
+          "name":"Ilium (Asia Minor)",
+          "description": {
+              "la": "Ilium",
+              "gr": "Ἴλιον",
+              "en": "Ilium",
+              "jp": "イーリオン",
+              "expl": "a city in Asia Minor, also known as Troy."
+          },
+          "lat":39.948317,
+          "long":26.323641,
+          "category": "city"
         },
         {
           "name":"Illyria",
@@ -1525,6 +1603,19 @@ var data = [
         "lat":37.934984,
         "long":22.848880,
         "category": "city"
+      },
+      {
+        "name":"Lemnos",
+        "description": {
+            "la": "Lemnos, Lemnus",
+            "gr": "Λῆμνος",
+            "en": "Lemnos",
+            "jp": "レームノス",
+            "expl": "an island in the northern part of the Aegean Sea. It was sacred to Hephaestus."
+        },
+        "lat":39.881631,
+        "long":25.175114,
+        "category": "island"
       },
       {
         "name":"Lesbus",
@@ -2042,6 +2133,19 @@ var data = [
         "category": "mountain"
       },
       {
+        "name":"Percote",
+        "description": {
+            "la": "Percote",
+            "gr": "Περκώτη",
+            "en": "Percote",
+            "jp": "ペルコーテー",
+            "expl": "a town of Troad."
+        },
+        "lat":40.319530,
+        "long":26.690962,
+        "category": "city"
+      },
+      {
         "name":"Pergamum",
         "description": {
             "la": "Pergamum",
@@ -2185,6 +2289,19 @@ var data = [
         "category": "city"
       },
       {
+        "name":"Propontis",
+        "description": {
+            "la": "Propontis",
+            "gr": "Προποντίς",
+            "en": "Propontis",
+            "jp": "プロポンティス",
+            "expl": "the inland sea that connects the Black Sea to the Aegean Sea, now known as the Sea of Marmara."
+        },
+        "lat":40.695373,
+        "long":28.009585,
+        "category": "sea"
+      },
+      {
         "name":"Pylus",
         "description": {
             "la": "Pylus",
@@ -2277,6 +2394,19 @@ var data = [
         },
         "lat":37.750869,
         "long":26.978851,
+        "category": "island"
+      },
+      {
+        "name":"Samothrace",
+        "description": {
+            "la": "Samothrace, Samothraca",
+            "gr": "Σαμοθρᾴκη",
+            "en": "Samothrace",
+            "jp": "サモトラーケー",
+            "expl": "an island in the northeastern part of the Aegean Sea."
+        },
+        "lat":40.438971,
+        "long":25.582978,
         "category": "island"
       },
       {
@@ -2503,6 +2633,19 @@ var data = [
         "category": "city"
       },
       {
+        "name":"Tenedus",
+        "description": {
+            "la": "Tenedus",
+            "gr": "Τένεδος",
+            "en": "Tenedos",
+            "jp": "テネドス",
+            "expl": "an island in the northeastern part of the Aegean Sea, now known as Bozcaada."
+        },
+        "lat":39.820194,
+        "long":26.047082,
+        "category": "island"
+      },
+      {
         "name":"Tenos",
         "description": {
             "la": "Tenos, Tenus",
@@ -2566,6 +2709,19 @@ var data = [
         "lat": 37.796953,
         "long": 23.900047,
         "category": "city"
+      },
+      {
+        "name":"Thracia",
+        "description": {
+            "la": "Thracia",
+            "gr": "Θρᾴκη",
+            "en": "Thrace",
+            "jp": "トラーキアー",
+            "expl": "a region in the Southeast Europe."
+        },
+        "lat":41.910031,
+        "long":25.402225,
+        "category": "region1"
       },
       {
         "name":"Tiryns",
